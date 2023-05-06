@@ -1,10 +1,12 @@
 # ChatEverything
 
-
+![ChatEveryThing](./images/Chat Everthing.png)
 
 <img src="https://awesome.re/badge.svg"> <img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-red"> <img src="https://img.shields.io/badge/lang-En-red">
 
 <img src="https://img.shields.io/github/stars/immc-lab/fastbook-zh.svg"> <img src="https://img.shields.io/github/watchers/immc-lab/fastbook-zh.svg">
+
+---
 
 随着深度学习的发展，大模型不断的涌现。大模型可以是深度学习模型中参数数量巨大的模型。最近来的一些工作，通过结合强化学习的相关基础，通过 RLHF 技术，将大模型的知识做了有效引导，使大模型发挥了惊人的效果。然而，现在互联网上，缺乏系统的，有逻辑的大模型资源整合文档，阻碍了许多人探究大模型技术的热情，因此，我们对现有网络上的资源进行了整合，以提供一个清晰的富有逻辑的脉络。
 
