@@ -46,21 +46,19 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 #####
 
-ChatGPT
-Wenxin
-ChatGLM
-Alpaca
-Dolly
-BELLE
-Guanaco
-
+-   BELLE - https://github.com/LianjiaTech/BELLE
+-   ChatGPT - https://chat.openai.com
+-   Wenxin - https://yiyan.baidu.com/
+-   ChatGLM - https://github.com/THUDM/ChatGLM-6B
+-   Phoenix - https://github.com/FreedomIntelligence/LLMZoo
+-   MiniGPT-4 - https://github.com/Vision-CAIR/MiniGPT-4
 -   MOSS - https://github.com/OpenLMLab/MOSS
 
 #### 模型微调
 
 ##### LoRA
 
--   Chinese-LLaMA-Alpaca -
+-   Chinese-LLaMA-Alpaca - https://github.com/LC1332/Chinese-alpaca-lora
 -   Yaya - https://github.com/qiyuan-chen/Yaya-Moss-Alpaca-LoRA
 
 #### 模型评估
