@@ -1,4 +1,4 @@
-# ChatEverything
+# 😎ChatEverything
 
 ![ChatEveryThing](./images/Chat%20Everthing.png)
 
