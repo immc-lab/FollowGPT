@@ -34,6 +34,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   [视频教程](#视频教程)
     -   [博客](#博客)
 -   [资源](#资源)
+    -   [工具](#工具)
     -   [免费 API](#免费API)
     -   [镜像网站](#镜像网站)
 
@@ -43,7 +44,24 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 #### 基座模型
 
+#####
+
+ChatGPT
+Wenxin
+ChatGLM
+Alpaca
+Dolly
+BELLE
+Guanaco
+
+-   MOSS - https://github.com/OpenLMLab/MOSS
+
 #### 模型微调
+
+##### LoRA
+
+-   Chinese-LLaMA-Alpaca -
+-   Yaya - https://github.com/qiyuan-chen/Yaya-Moss-Alpaca-LoRA
 
 #### 模型评估
 
@@ -73,6 +91,12 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 ## 资源
 
+### 工具
+
+-   peft - https://github.com/huggingface/peft
+
 ### 免费 API
+
+-   GPTFree - https://github.com/xtekky/gpt4free
 
 ### 镜像网站
