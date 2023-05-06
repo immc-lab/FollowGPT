@@ -63,7 +63,9 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   MiniGPT-4 - https://github.com/Vision-CAIR/MiniGPT-4
 -   MOSS - https://github.com/OpenLMLab/MOSS
 -   Alpaca - https://github.com/tatsu-lab/stanford_alpaca - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
-    [close source]
+
+[close source]
+
 -   ChatGPT - https://chat.openai.com
 -   Claude - https://www.anthropic.com/index/introducing-claude
 -   Wenxin - https://yiyan.baidu.com/
