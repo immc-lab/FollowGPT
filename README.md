@@ -44,7 +44,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 #### 基座模型
 
-#####
+##### textual
 
 -   BELLE - https://github.com/LianjiaTech/BELLE
 -   ChatGPT - https://chat.openai.com
@@ -54,18 +54,26 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   MiniGPT-4 - https://github.com/Vision-CAIR/MiniGPT-4
 -   MOSS - https://github.com/OpenLMLab/MOSS
 
+##### textual-vision
+
+-   LLaVA
+
 #### 模型微调
 
-##### LoRA
+##### PHT-LoRA
 
 -   Chinese-LLaMA-Alpaca - https://github.com/LC1332/Chinese-alpaca-lora
 -   Yaya - https://github.com/qiyuan-chen/Yaya-Moss-Alpaca-LoRA
+
+##### PHT-adapter
 
 #### 模型评估
 
 ### 中游
 
 #### 量化
+
+-   llama.cpp - https://github.com/ggerganov/llama.cpp
 
 #### 拓展
 
