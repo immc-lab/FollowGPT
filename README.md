@@ -64,10 +64,13 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   ChatGLM - https://github.com/THUDM/ChatGLM-6B
 -   Phoenix - https://github.com/FreedomIntelligence/LLMZoo
 -   MOSS - https://github.com/OpenLMLab/MOSS
--   Alpaca - https://github.com/tatsu-lab/stanford_alpaca
-    -   由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
+-   Alpaca - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
+    -   https://github.com/tatsu-lab/stanford_alpaca
+-   pandallm - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
 
-[close source]
+    -   https://github.com/dandelionsllm/pandallm
+
+    [close source]
 
 -   ChatGPT-3.5 - https://chat.openai.com
 -   Claude - https://www.anthropic.com/index/introducing-claude
