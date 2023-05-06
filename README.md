@@ -72,11 +72,11 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
     -   [open source] https://github.com/dandelionsllm/pandallm
 
--   ChatGPT-3.5
+-   ChatGPT-3.5 - OpenAI 文本大模型，闻名于世界的 ChatGPT
     -   [close source] https://chat.openai.com
--   Claude
+-   Claude - 从 OpenAI 出走的部分人马原版打造的大模型
     -   [close source] https://www.anthropic.com/index/introducing-claude
--   通意千问
+-   通意千问 -
     -   [close source] https://tongyi.aliyun.com/
 -   星火认知
     -   [close source] https://xinghuo.xfyun.cn/
