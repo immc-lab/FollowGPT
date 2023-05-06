@@ -85,17 +85,16 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 能够接受图片、文本作为输入，进行文本生成
 
--   GPT-4 <img src="https://img.shields.io/badge/opensource-No-red"> - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。 
-    
--   Bard <img src="https://img.shields.io/badge/opensource-No-red"> - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
 -   LLaVA🌋 <img src="https://img.shields.io/badge/opensource-Yes-green"> - LLaVA 是一种新型的端到端训练的大型多模态模型，它结合了视觉编码器和 Vicuna 来实现通用的视觉和语言理解。该模型能够模仿多模态 GPT-4 的精神，具有令人印象深刻的聊天功能，并引入了科学质量检查的艺术准确性作为新的标准。
     -   [[arXiv]](https://arxiv.org/abs/2304.08485) [[code]](https://github.com/haotian-liu/LLaVA) [[Demo]](https://llava.hliu.cc/) [[Dataset]](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) [[Model]](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)
--   DALL·E2 <img src="https://img.shields.io/badge/opensource-No-red"> - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
--   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
 -   MiniGPT <img src="https://img.shields.io/badge/opensource-Yes-green"> - Mini GPT-4 是一个基于 PyTorch 实现的小型自然语言处理模型，它使用了类似于 GPT-3 的架构，但参数数量只有 GPT-3 的一小部分。Mini GPT-4 在多个自然语言处理任务上表现出色，包括语言建模、文本生成和问答系统等。
     -   [[arXiv]](https://arxiv.org/abs/2304.10592) [[code]](https://github.com/Vision-CAIR/MiniGPT-4) [[Demo]](https://16440e488436f49d99.gradio.live/) [[Dataset]](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) [[Model]](https://huggingface.co/Vision-CAIR/MiniGPT-4)
 -   mPLUG-Owl🦉 <img src="https://img.shields.io/badge/opensource-Yes-green"> - mPLUG-Owl，一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
     -   [[arXiv]](https://arxiv.org/abs/2304.14178) [[code]](https://github.com/x-plug/mplug-owl) [[Demo]](https://modelscope.cn/studios/damo/mPLUG-Owl/summary)
+-   GPT-4 <img src="https://img.shields.io/badge/opensource-No-red"> - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。 
+-   Bard <img src="https://img.shields.io/badge/opensource-No-red"> - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
+-   DALL·E2 <img src="https://img.shields.io/badge/opensource-No-red"> - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
+-   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
 
 #### 相关论文
 
