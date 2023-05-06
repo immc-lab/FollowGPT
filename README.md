@@ -57,28 +57,29 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 ##### 文本大模型
 
 接受文本作为输入，进行文本生成
-[open source]
 
 -   BELLE - 开源中文对话大模型，由 LLaMA 微调而来
-    -   https://github.com/LianjiaTech/BELLE
+    -   [open source] https://github.com/LianjiaTech/BELLE
 -   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
-    -   https://github.com/THUDM/ChatGLM-6B
+    -   [open source] https://github.com/THUDM/ChatGLM-6B
 -   Phoenix - 基于 LLaMA 微调的模型。
-    -   https://github.com/FreedomIntelligence/LLMZoo
+    -   [open source] https://github.com/FreedomIntelligence/LLMZoo
 -   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
-    -   https://github.com/OpenLMLab/MOSS
+    -   [open source] https://github.com/OpenLMLab/MOSS
 -   Alpaca - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
-    -   https://github.com/tatsu-lab/stanford_alpaca
+    -   [open source] https://github.com/tatsu-lab/stanford_alpaca
 -   pandallm - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
 
-    -   https://github.com/dandelionsllm/pandallm
+    -   [open source] https://github.com/dandelionsllm/pandallm
 
-    [close source]
-
--   ChatGPT-3.5 - https://chat.openai.com
--   Claude - https://www.anthropic.com/index/introducing-claude
--   通意千问 - https://tongyi.aliyun.com/
--   星火认知 - https://xinghuo.xfyun.cn/
+-   ChatGPT-3.5
+    -   [close source] https://chat.openai.com
+-   Claude
+    -   [close source] https://www.anthropic.com/index/introducing-claude
+-   通意千问
+    -   [close source] https://tongyi.aliyun.com/
+-   星火认知
+    -   [close source] https://xinghuo.xfyun.cn/
 
 ##### 多模态大模型
 
