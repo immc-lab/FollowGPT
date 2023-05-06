@@ -63,16 +63,14 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   由 LLaMA 微调而来
 -   ChatGLM - https://github.com/THUDM/ChatGLM-6B
 -   Phoenix - https://github.com/FreedomIntelligence/LLMZoo
--   MiniGPT-4 - https://github.com/Vision-CAIR/MiniGPT-4
 -   MOSS - https://github.com/OpenLMLab/MOSS
 -   Alpaca - https://github.com/tatsu-lab/stanford_alpaca
     -   由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
 
 [close source]
 
--   ChatGPT - https://chat.openai.com
+-   ChatGPT-3.5 - https://chat.openai.com
 -   Claude - https://www.anthropic.com/index/introducing-claude
--   Wenxin - https://yiyan.baidu.com/
 -   通意千问 - https://tongyi.aliyun.com/
 -   星火认知 - https://xinghuo.xfyun.cn/
 
