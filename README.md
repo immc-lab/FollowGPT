@@ -58,44 +58,43 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 接受文本作为输入，进行文本生成
 
--   BELLE - 开源中文对话大模型，由 LLaMA 微调而来
-    -   [open source] [[code]](https://github.com/LianjiaTech/BELLE)
--   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
-    -   [open source] [[code]](https://github.com/THUDM/ChatGLM-6B)
--   Phoenix - 基于 LLaMA 微调的模型。
-    -   [open source] [[code]](https://github.com/FreedomIntelligence/LLMZoo)
--   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
-    -   [open source] [[code]](https://github.com/OpenLMLab/MOSS)
--   Alpaca - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
-    -   [open source] [[code]](https://github.com/tatsu-lab/stanford_alpaca)
--   pandallm - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
+-   BELLE <img src="https://img.shields.io/badge/opensource-Yes-green"> - 开源中文对话大模型，由 LLaMA 微调而来
+    -   [[code]](https://github.com/LianjiaTech/BELLE)
+-   ChatGLM <img src="https://img.shields.io/badge/opensource-Yes-green"> - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
+    -   [[code]](https://github.com/THUDM/ChatGLM-6B)
+-   Phoenix <img src="https://img.shields.io/badge/opensource-Yes-green"> - 基于 LLaMA 微调的模型。
+    -   [[code]](https://github.com/FreedomIntelligence/LLMZoo)
+-   MOSS <img src="https://img.shields.io/badge/opensource-Yes-green"> - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
+    -   [[code]](https://github.com/OpenLMLab/MOSS)
+-   Alpaca <img src="https://img.shields.io/badge/opensource-Yes-green"> - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
+    -   [[code]](https://github.com/tatsu-lab/stanford_alpaca)
+-   pandallm <img src="https://img.shields.io/badge/opensource-Yes-green"> - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
 
-    -   [open source] [[code]](https://github.com/dandelionsllm/pandallm)
+    -   [[code]](https://github.com/dandelionsllm/pandallm)
 
--   ChatGPT-3.5 - OpenAI 文本大模型，闻名于世界的 ChatGPT
-    -   [close source] [[website]](https://chat.openai.com)
--   Claude - 从 OpenAI 出走的部分人马原版打造的大模型
-    -   [close source] [[website]](https://www.anthropic.com/index/introducing-claude)
--   通意千问 -
-    -   [close source] [[website]](https://tongyi.aliyun.com/)
--   星火认知
-    -   [close source] [[website]](https://xinghuo.xfyun.cn/)
+-   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT
+    -   [[website]](https://chat.openai.com)
+-   Claude <img src="https://img.shields.io/badge/opensource-No-red"> - 从 OpenAI 出走的部分人马原版打造的大模型
+    -   [[website]](https://www.anthropic.com/index/introducing-claude)
+-   通意千问 <img src="https://img.shields.io/badge/opensource-No-red"> -
+    -   [[website]](https://tongyi.aliyun.com/)
+-   星火认知 <img src="https://img.shields.io/badge/opensource-No-red"> - 
+    -   [[website]](https://xinghuo.xfyun.cn/)
 
 ##### 多模态大模型
 
 能够接受图片、文本作为输入，进行文本生成
 
--   GPT-4 - GPT-4 是一个大型多模态模型（接受图像和文本输入，发出文本输出），虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。
-    - <img src="https://img.shields.io/badge/opensource-No-red"> 
-
--   <img src="https://img.shields.io/badge/opensource-No-red"> Bard - 谷歌正在开发一种名为 LaMDA 的对话语言模型，该模型被设计为与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。除此之外的信息目前尚不明确。
--   LLaVA🌋 - LLaVA 是一种新型的端到端训练的大型多模态模型，它结合了视觉编码器和 Vicuna 来实现通用的视觉和语言理解。该模型能够模仿多模态 GPT-4 的精神，具有令人印象深刻的聊天功能，并引入了科学质量检查的艺术准确性作为新的标准。
-    -   <img src="https://img.shields.io/badge/opensource-Yes-green"> [[arXiv]](https://arxiv.org/abs/2304.08485) [[code]](https://github.com/haotian-liu/LLaVA) [[Demo]](https://llava.hliu.cc/) [[Dataset]](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) [[Model]](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)
--   <img src="https://img.shields.io/badge/opensource-No-red"> DALL·E2 - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
--   <img src="https://img.shields.io/badge/opensource-No-red"> Wenxin -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
--   <img src="https://img.shields.io/badge/opensource-Yes-green"> MiniGPT - Mini GPT-4 是一个基于 PyTorch 实现的小型自然语言处理模型，它使用了类似于 GPT-3 的架构，但参数数量只有 GPT-3 的一小部分。Mini GPT-4 在多个自然语言处理任务上表现出色，包括语言建模、文本生成和问答系统等。
+-   GPT-4 <img src="https://img.shields.io/badge/opensource-No-red"> - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。 
+    
+-   Bard <img src="https://img.shields.io/badge/opensource-No-red"> - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
+-   LLaVA🌋 <img src="https://img.shields.io/badge/opensource-Yes-green"> - LLaVA 是一种新型的端到端训练的大型多模态模型，它结合了视觉编码器和 Vicuna 来实现通用的视觉和语言理解。该模型能够模仿多模态 GPT-4 的精神，具有令人印象深刻的聊天功能，并引入了科学质量检查的艺术准确性作为新的标准。
+    -   [[arXiv]](https://arxiv.org/abs/2304.08485) [[code]](https://github.com/haotian-liu/LLaVA) [[Demo]](https://llava.hliu.cc/) [[Dataset]](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) [[Model]](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)
+-   DALL·E2 <img src="https://img.shields.io/badge/opensource-No-red"> - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
+-   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+-   MiniGPT <img src="https://img.shields.io/badge/opensource-Yes-green"> - Mini GPT-4 是一个基于 PyTorch 实现的小型自然语言处理模型，它使用了类似于 GPT-3 的架构，但参数数量只有 GPT-3 的一小部分。Mini GPT-4 在多个自然语言处理任务上表现出色，包括语言建模、文本生成和问答系统等。
     -   [[arXiv]](https://arxiv.org/abs/2304.10592) [[code]](https://github.com/Vision-CAIR/MiniGPT-4) [[Demo]](https://16440e488436f49d99.gradio.live/) [[Dataset]](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) [[Model]](https://huggingface.co/Vision-CAIR/MiniGPT-4)
--   <img src="https://img.shields.io/badge/opensource-Yes-green"> mPLUG-Owl🦉 - mPLUG-Owl，一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
+-   mPLUG-Owl🦉 <img src="https://img.shields.io/badge/opensource-Yes-green"> - mPLUG-Owl，一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
     -   [[arXiv]](https://arxiv.org/abs/2304.14178) [[code]](https://github.com/x-plug/mplug-owl) [[Demo]](https://modelscope.cn/studios/damo/mPLUG-Owl/summary)
 
 #### 相关论文
