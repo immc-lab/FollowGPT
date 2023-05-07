@@ -64,7 +64,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
     -   <img src="https://img.shields.io/badge/opensource-Yes-green">
     -   [[code]](https://github.com/THUDM/ChatGLM-6B)
--   Phoenix - 基于 LLaMA 微调的模型。
+-   Phoenix - 基于 BLOOMZ 微调的模型。
     -   [[code]](https://github.com/FreedomIntelligence/LLMZoo)
     -   <img src="https://img.shields.io/badge/opensource-Yes-green">
 -   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
@@ -74,10 +74,20 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   <img src="https://img.shields.io/badge/opensource-Yes-green">
     -   [[code]](https://github.com/tatsu-lab/stanford_alpaca)
 -   pandallm - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
-
     -   <img src="https://img.shields.io/badge/opensource-Yes-green">
     -   [[code]](https://github.com/dandelionsllm/pandallm)
-
+-   Latin Phoenix: Chimera - 基于 LLaMA 微调的模型。
+    -   <img src="https://img.shields.io/badge/opensource-Yes-green">
+    -   [[code]](https://github.com/dandelionsllm/pandallm)
+-   Dolly - Databricks 的 Dolly，一个在 Databricks 机器学习平台上训练的大型语言模型。
+    -   <img src="https://img.shields.io/badge/opensource-Yes-green">
+    -   [[code]](https://github.com/databrickslabs/dolly)
+-   Guanaco - 基于 LLaMA 微调的模型
+    -   <img src="https://img.shields.io/badge/opensource-Yes-green">
+    -   [[code]](https://github.com/Guanaco-Model/Guanaco-Model.github.io)
+-   Luotuo - 基于 LLaMA 微调的模型
+    -   <img src="https://img.shields.io/badge/opensource-Yes-green">
+    -   [[code]](https://github.com/LC1332/Luotuo-Chinese-LLM)
 -   ChatGPT-3.5 - OpenAI 文本大模型，闻名于世界的 ChatGPT。
     -   <img src="https://img.shields.io/badge/opensource-No-red">
     -   [[website]](https://chat.openai.com)
