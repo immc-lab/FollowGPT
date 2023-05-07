@@ -82,11 +82,12 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   <img src="https://img.shields.io/badge/opensource-No-red">
     -   [[website]](https://chat.openai.com)
 -   Claude - 从 OpenAI 出走的部分人马原版打造的大模型
+    -   <img src="https://img.shields.io/badge/opensource-No-red">
     -   [[website]](https://www.anthropic.com/index/introducing-claude)
--   通意千问 -
+-   通意千问 - 阿里巴巴开源的大模型
     -   <img src="https://img.shields.io/badge/opensource-No-red">
     -   [[website]](https://tongyi.aliyun.com/)
--   星火认知 -
+-   星火认知 - 科大讯飞开源的大模型
     -   <img src="https://img.shields.io/badge/opensource-No-red">
     -   [[website]](https://xinghuo.xfyun.cn/)
 
