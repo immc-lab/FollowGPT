@@ -72,7 +72,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
     -   [[code]](https://github.com/dandelionsllm/pandallm)
 
--   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT，好帅呀。
+-   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT。
     -   [[website]](https://chat.openai.com)
 -   Claude <img src="https://img.shields.io/badge/opensource-No-red"> - 从 OpenAI 出走的部分人马原版打造的大模型
     -   [[website]](https://www.anthropic.com/index/introducing-claude)
