@@ -72,7 +72,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
     -   [[code]](https://github.com/dandelionsllm/pandallm)
 
--   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT。太帅了，很好用
+-   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT。
     -   [[website]](https://chat.openai.com)
 -   Claude <img src="https://img.shields.io/badge/opensource-No-red"> - 从 OpenAI 出走的部分人马原版打造的大模型
     -   [[website]](https://www.anthropic.com/index/introducing-claude)
@@ -103,7 +103,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
     -   [[website]](https://openai.com/product/dall-e-2)
 
--   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。henhaouypmn
+-   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
     -   [[website]](https://yiyan.baidu.com/welcome)
 
 #### 相关论文
