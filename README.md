@@ -72,13 +72,13 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
     -   [[code]](https://github.com/dandelionsllm/pandallm)
 
--   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT
+-   ChatGPT-3.5 <img src="https://img.shields.io/badge/opensource-No-red"> - OpenAI 文本大模型，闻名于世界的 ChatGPT。太帅了，很好用
     -   [[website]](https://chat.openai.com)
 -   Claude <img src="https://img.shields.io/badge/opensource-No-red"> - 从 OpenAI 出走的部分人马原版打造的大模型
     -   [[website]](https://www.anthropic.com/index/introducing-claude)
 -   通意千问 <img src="https://img.shields.io/badge/opensource-No-red"> -
     -   [[website]](https://tongyi.aliyun.com/)
--   星火认知 <img src="https://img.shields.io/badge/opensource-No-red"> - 
+-   星火认知 <img src="https://img.shields.io/badge/opensource-No-red"> -
     -   [[website]](https://xinghuo.xfyun.cn/)
 
 ##### 多模态大模型
@@ -91,18 +91,20 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   [[arXiv]](https://arxiv.org/abs/2304.10592) [[code]](https://github.com/Vision-CAIR/MiniGPT-4) [[Demo]](https://16440e488436f49d99.gradio.live/) [[Dataset]](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) [[Model]](https://huggingface.co/Vision-CAIR/MiniGPT-4)
 -   mPLUG-Owl🦉 <img src="https://img.shields.io/badge/opensource-Yes-green"> - mPLUG-Owl，一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
     -   [[arXiv]](https://arxiv.org/abs/2304.14178) [[code]](https://github.com/x-plug/mplug-owl) [[Demo]](https://modelscope.cn/studios/damo/mPLUG-Owl/summary)
--   GPT-4 <img src="https://img.shields.io/badge/opensource-No-red"> - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。 
+-   GPT-4 <img src="https://img.shields.io/badge/opensource-No-red"> - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。
+
     -   [[website]](https://openai.com/product/gpt-4)
 
 -   Bard <img src="https://img.shields.io/badge/opensource-No-red"> - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
+
     -   [[website]](https://bard.google.com/)
 
 -   DALL·E2 <img src="https://img.shields.io/badge/opensource-No-red"> - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
+
     -   [[website]](https://openai.com/product/dall-e-2)
 
 -   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。henhaouypmn
     -   [[website]](https://yiyan.baidu.com/welcome)
-
 
 #### 相关论文
 
