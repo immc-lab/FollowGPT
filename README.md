@@ -100,7 +100,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   DALL·E2 <img src="https://img.shields.io/badge/opensource-No-red"> - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
     -   [[website]](https://openai.com/product/dall-e-2)
 
--   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+-   Wenxin <img src="https://img.shields.io/badge/opensource-No-red"> -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。很好用
     -   [[website]](https://yiyan.baidu.com/welcome)
 
 
