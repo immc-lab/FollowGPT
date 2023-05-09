@@ -24,7 +24,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 ## 内容
 
--   [学术&产业](#学术&产业)
+-   [了解大模型](#学术&产业)
     -   [上游](#上游)
         -   [基座模型](#基座模型)
         -   [模型微调](#模型微调)
@@ -56,12 +56,12 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 ##### 文本大模型
 
-接受文本作为输入，进行文本生成
+文本是最早产生预训练和相关微调技术的领域。同时现在，文本大模型引领时代的步伐，启发其他领域的任务。文本大模型通常指参数量巨大（达到数亿级别参数的模型）。而目前，生成式文本大模型最为流行，其范式为接受文本作为输入，进行文本生成。
 
 -   BELLE - 开源中文对话大模型，由 LLaMA 微调而来
     -   [[code]](https://github.com/LianjiaTech/BELLE)
 -   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
-    -   [[arXiv]](https://arxiv.org/abs/2210.02414) [[code]](https://github.com/THUDM/ChatGLM-6B) 
+    -   [[arXiv]](https://arxiv.org/abs/2210.02414) [[code]](https://github.com/THUDM/ChatGLM-6B)
 -   Phoenix - 基于 BLOOMZ 微调的模型。
     -   [[TechReport]](https://github.com/FreedomIntelligence/LLMZoo/blob/main/assets/llmzoo.pdf) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
 -   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
@@ -100,15 +100,15 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   GPT-4 - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。
 
     -   [[website]](https://openai.com/product/gpt-4)
-    
+
 -   Bard - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
 
     -   [[website]](https://bard.google.com/)
-    
+
 -   DALL·E2 - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
 
     -   [[website]](https://openai.com/product/dall-e-2)
-    
+
 -   Wenxin -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
     -   [[website]](https://yiyan.baidu.com/welcome)
 
