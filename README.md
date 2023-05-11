@@ -78,6 +78,8 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
     -   [[code]](https://github.com/Guanaco-Model/Guanaco-Model.github.io) [[Dataset]](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
 -   Luotuo - 基于 LLaMA 微调的模型
     -   [[code]](https://github.com/LC1332/Luotuo-Chinese-LLM)
+-   ChatYuan - 自发布以来，首个中文版 ChatGPT——ChatYuan。如今 ChatYuan 又迎来了升级版本，支持中英双语交互、多次编辑、上下文关联交互、模拟情景设定等多种新功能。
+    -   [[article]](https://mp.weixin.qq.com/s/-axa6XcjGl_Koeq_OrDq8w) [[code]](https://github.com/clue-ai/ChatYuan) [[Demo]](https://modelscope.cn/studios/ClueAI/ChatYuan-large-v2)
 -   ChatGPT-3.5 - OpenAI 文本大模型，闻名于世界的 ChatGPT。
     -   [[website]](https://chat.openai.com)
 -   Claude - 从 OpenAI 出走的部分人马原版打造的大模型
