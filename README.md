@@ -60,16 +60,16 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 
 -   BELLE - 开源中文对话大模型，由 LLaMA 微调而来
     -   [[code]](https://github.com/LianjiaTech/BELLE)
--   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。
+-   ChatGLM - ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，具有 62 亿参数。
     -   [[arXiv]](https://arxiv.org/abs/2210.02414) [[code]](https://github.com/THUDM/ChatGLM-6B)
 -   Phoenix - 基于 BLOOMZ 微调的模型。
     -   [[TechReport]](https://github.com/FreedomIntelligence/LLMZoo/blob/main/assets/llmzoo.pdf) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
--   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数，在 FP16 精度下可在单张 A100/A800 或两张 3090 显卡运行，在 INT4/8 精度下可在单张 3090 显卡运行。MOSS 基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
+-   MOSS - MOSS 是一个支持中英双语和多种插件的开源对话语言模型，moss-moon 系列模型具有 160 亿参数。
     -   [[code]](https://github.com/OpenLMLab/MOSS)
 -   Alpaca - 由 LLaMa 微调而来的大模型，训练语料共包含 52k 数据。
     -   [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
 -   pandallm - 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
-    -   [[code]](https://github.com/dandelionsllm/pandallm)
+    -   [[ArXiv]](https://arxiv.org/pdf/2305.03025) [[code]](https://github.com/dandelionsllm/pandallm)
 -   Latin Phoenix: Chimera - 基于 LLaMA 微调的模型。
     -   [[code]](https://github.com/dandelionsllm/pandallm)
 -   Dolly - Databricks 的 Dolly，一个在 Databricks 机器学习平台上训练的大型语言模型。
@@ -89,30 +89,64 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   星火认知 - 科大讯飞开源的大模型
     -   [[website]](https://xinghuo.xfyun.cn/)
 
+##### 语言模型对比
+
+| Model                    | Backbone     | Claimed language | **Params**     | Open-source model | Open-source data | Institution                             | Release data | Evaluate↓ | Stars↓                                                       |
+| ------------------------ | ------------ | ---------------- | -------------- | ----------------- | ---------------- | --------------------------------------- | ------------ | --------- | ------------------------------------------------------------ |
+| ChatGPT                  | -            | multi            | -              | x                 | x                | OpenAI                                  | 2022-11-30   |           | -                                                            |
+| Bard                     | -            | -                | 137B           | x                 | x                | Google                                  | 2023-02-06   |           | -                                                            |
+| Claude                   | -            | zh,en            | 52B            | x                 | x                | -                                       | 2023-03-14   |           | -                                                            |
+| ERNIE Bot(Wenxin)        | -            | zh               | 260B           | x                 | x                | Baidu                                   | 2023-03-16   |           | -                                                            |
+| Tongyi Qianwen           | TongYi       | zh,en            | ~10T           | x                 | x                | Alibaba                                 | 2023-04-07   |           | -                                                            |
+| SparkDesk(Xinghuorenzhi) | -            | zh,en            | -              | x                 | x                | iFLYTEK                                 | 2023-0506    |           | -                                                            |
+| LLaMA                    | -            | multi            | 7B/13B/33B/65B | √                 | √                | Meta AI                                 | 2023-02-24   |           | ![img](https://img.shields.io/github/stars/facebookresearch/llama) |
+| BELLE                    | BLOOMZ/LLaMA | zh               | 7B             | √                 | √                | -                                       | 2023-03-26   |           | ![img](https://img.shields.io/github/stars/LianjiaTech/BELLE) |
+| ChatGLM                  | GLM          | zh,en            | 6B             | √                 | x                | Tsinghua University                     | 2023-03-16   |           | ![img](https://img.shields.io/github/stars/THUDM/ChatGLM-6B) |
+| MOSS                     | -            | zh,en            | 16B            | √                 | √                | Fudan University                        | 2023-04-21   |           | ![img](https://img.shields.io/github/stars/OpenLMLab/MOSS)   |
+| Alpace                   | LLaMA        | en               | 7B             | √                 | √                | Stanford NLP Group                      | 2023-03-13   |           | ![img](https://img.shields.io/github/stars/tatsu-lab/stanford_alpaca) |
+| pandallm                 | LLaMA        | zh,en            | 7B/13B         | √                 | √                | Nanyang Technological University        | 2023-05-04   |           | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
+| Phoenix                  | BLOOMZ       | multi            | 7B             | √                 | √                | Shenzhen Research Institute of Big Data | 2023-04-08   |           | ![img](https://img.shields.io/github/stars/FreedomIntelligence/LLMZoo) |
+| Latin Phoenix: Chimera   | LLaMA        | multi            | 7/13B          | √                 | √                | Shenzhen Research Institute of Big Data | 2023-04-08   |           | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
+| Dolly                    | GPT-J        | en               | 6B             | √                 | √                | -                                       | 2023-03-24   |           | ![img](https://img.shields.io/github/stars/databrickslabs/dolly) |
+| Guanaco                  | LLaMA        | zh,en,ja,de      | 7B             | √                 | √                | -                                       | 2023-03-26   |           | ![img](https://img.shields.io/github/stars/Guanaco-Model/Guanaco-Model.github.io) |
+| Luotuo                   | LLaMA        | zh               | 7B             | √                 | √                | -                                       | 2023-03-31   |           | ![img](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM) |
+| ChatYuan                 | -            | zh,en            | ～10B          | √                 | x                | YuanYu.AI                               | 2023-03-23   |           | ![img](https://img.shields.io/github/stars/clue-ai/ChatYuan) |
+
 ##### 多模态大模型
 
 能够接受图片、文本作为输入，进行文本生成
 
--   LLaVA🌋 - LLaVA 是一种新型的端到端训练的大型多模态模型，它结合了视觉编码器和 Vicuna 来实现通用的视觉和语言理解。该模型能够模仿多模态 GPT-4 的精神，具有令人印象深刻的聊天功能，并引入了科学质量检查的艺术准确性作为新的标准。
+-   LLaVA🌋 - LLaVA 是一种新型的端到端训练的大型多模态模型，它结合了视觉编码器和 Vicuna 来实现通用的视觉和语言理解。
     -   [[arXiv]](https://arxiv.org/abs/2304.08485) [[code]](https://github.com/haotian-liu/LLaVA) [[Demo]](https://llava.hliu.cc/) [[Dataset]](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) [[Model]](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)
--   MiniGPT - Mini GPT-4 是一个基于 PyTorch 实现的小型自然语言处理模型，它使用了类似于 GPT-3 的架构，但参数数量只有 GPT-3 的一小部分。Mini GPT-4 在多个自然语言处理任务上表现出色，包括语言建模、文本生成和问答系统等。
+-   MiniGPT - 是一个小型自然语言处理模型，它使用了类似于 GPT-3 的架构，但参数数量只有 GPT-3 的一小部分
     -   [[arXiv]](https://arxiv.org/abs/2304.10592) [[code]](https://github.com/Vision-CAIR/MiniGPT-4) [[Demo]](https://16440e488436f49d99.gradio.live/) [[Dataset]](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) [[Model]](https://huggingface.co/Vision-CAIR/MiniGPT-4)
--   mPLUG-Owl🦉 - mPLUG-Owl，一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
+-   mPLUG-Owl🦉 - 一种新颖的训练范式，通过基础 LLM、视觉知识模块和视觉抽象模块的模块化学习，使 LLM 具备多模态能力。
     -   [[arXiv]](https://arxiv.org/abs/2304.14178) [[code]](https://github.com/x-plug/mplug-owl) [[Demo]](https://modelscope.cn/studios/damo/mPLUG-Owl/summary)
--   GPT-4 - GPT-4 是一个大型多模态模型，虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平的表现。
+-   GPT-4 - GPT-4 是一个大型多模态模型，各种专业和学术基准上表现出人类水平的表现。
 
-    -   [[website]](https://openai.com/product/gpt-4)
+    -   [[TechReport]](https://arxiv.org/abs/2303.08774) [[website]](https://openai.com/product/gpt-4)
 
--   Bard - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型被设计与 ChatGPT 相似，但是目前只支持英文对话，并且仅限于美国和英国的用户进行预约访问。
+-   Bard - 谷歌开发一种名为 LaMDA 的对话语言模型，该模型设计与 ChatGPT 相似。
 
     -   [[website]](https://bard.google.com/)
+
+-   PaLM2 - 谷歌提出的 PaLM 二代模型，对标GPT-4 ，改进了数学、代码、推理、多语言翻译和自然语言生成能力。
+    -   [[TechReport]](https://ai.google/static/documents/palm2techreport.pdf) [[website]](https://ai.google/discover/palm2)
 
 -   DALL·E2 - DALL·E 2 是一种人工智能系统，它可以根据自然语言描述创作出逼真的图像和艺术作品。
 
     -   [[website]](https://openai.com/product/dall-e-2)
 
--   Wenxin -（文心一言）百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+-   Wenxin -（文心一言）百度全新一代知识增强大语言模型。
     -   [[website]](https://yiyan.baidu.com/welcome)
+-   DetGPT - 由港科大 & 港大的研究人员提出的模型，只需微调三百万参数量，让模型拥有复杂推理和局部物体定位能力。
+    -   [[code]](https://github.com/OptimalScale/DetGPT) [[Demo]](https://detgpt.github.io/)
+
+
+##### 专有领域大模型
+
+- MathGPT - MathGPT 是面向全球数学爱好者和科研机构，以数学领域的解题和讲题算法为核心的大模型。
+  - [[website]](https://mathgpt.streamlit.app/)
 
 #### 相关论文
 
