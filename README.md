@@ -89,7 +89,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 -   星火认知 - 科大讯飞开源的大模型
     -   [[website]](https://xinghuo.xfyun.cn/)
 
-##### 语言模型对比
+##### 文本大模型对比
 
 | Model                    | Backbone     | Claimed language | **Params**     | Open-source model | Open-source data | Institution                             | Release data | Evaluate↓ | Stars↓                                                       |
 | ------------------------ | ------------ | ---------------- | -------------- | ----------------- | ---------------- | --------------------------------------- | ------------ | --------- | ------------------------------------------------------------ |
