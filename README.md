@@ -1,6 +1,7 @@
 <p align="center"><a href="https://github.com/huaiwen"
-
 # 😎 **FollowGPT**
+
+
 
 ![ChatEveryThing](./images/Chat%20Everthing.png)
 
