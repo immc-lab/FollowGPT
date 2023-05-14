@@ -2,7 +2,7 @@
 
 # 😎 **FollowGPT**
 
-![ChatEveryThing](./images/Chat Everthing.png)
+![ChatEveryThing](./images/Chat%20Everthing.png)
 
 <img src="https://awesome.re/badge.svg"> <img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-red"> <img src="https://img.shields.io/badge/lang-En-red">
 
