@@ -2,7 +2,7 @@
 
 # 😎 **FollowGPT**
 
-![ChatEveryThing](/Users/lipeng/Programs/ChatEverything/images/Chat Everthing.png)
+![ChatEveryThing](./images/Chat Everthing.png)
 
 <img src="https://awesome.re/badge.svg"> <img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-red"> <img src="https://img.shields.io/badge/lang-En-red">
 
@@ -42,7 +42,7 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
     -   [Blog](#Blog)
 -   [resource](#资源)
     -   [Tools](#Tools)
-    -   [Free API](# Free API)
+    -   [Free API](#Free API)
     -   [镜像网站](#镜像网站)
 
 ---
