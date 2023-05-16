@@ -34,14 +34,14 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
         -   [Secondary development](#Secondary development)
     -   [Downstream](#Downstream)
         -   [Web application](#Web application)
-        -   [app](#app)
 -   [Tutorial](#Tutorial)
-    -   [Video tutorial](#Video tutorial)
+    -   [Video](#Video)
     -   [Blog](#Blog)
--   [resource](#资源)
+-   [Resource](#Resource)
     -   [Tools](#Tools)
-    -   [Free API](#Free API)
-    -   [镜像网站](#镜像网站)
+    -   [API](#API)
+    -   [Mirror site](#Mirror site)
+-   [Contributions](#Contributions)
 
 ---
 
@@ -75,26 +75,26 @@ Text is the earliest field to generate pre-training and related fine-tuning tech
 
 ##### LLMs .V.S
 
-| Model                    | Backbone     | Claimed language | **Params**     | Open-source model | Open-source data | Institution                             | Release data | Evaluation | Stars                                                        |
-| ------------------------ | ------------ | ---------------- | -------------- | ----------------- | ---------------- | --------------------------------------- | ------------ | :--------- | ------------------------------------------------------------ |
-| ChatGPT                  | -            | multi            | -              | x                 | x                | OpenAI                                  | 2022-11-30   |            | -                                                            |
-| Bard                     | -            | -                | 137B           | x                 | x                | Google                                  | 2023-02-06   |            | -                                                            |
-| Claude                   | -            | zh,en            | 52B            | x                 | x                | -                                       | 2023-03-14   |            | -                                                            |
-| ERNIE Bot(Wenxin)        | -            | zh               | 260B           | x                 | x                | Baidu                                   | 2023-03-16   |            | -                                                            |
-| Tongyi Qianwen           | TongYi       | zh,en            | ~10T           | x                 | x                | Alibaba                                 | 2023-04-07   |            | -                                                            |
-| SparkDesk(Xinghuorenzhi) | -            | zh,en            | -              | x                 | x                | iFLYTEK                                 | 2023-0506    |            | -                                                            |
-| LLaMA                    | -            | multi            | 7B/13B/33B/65B | √                 | √                | Meta AI                                 | 2023-02-24   |            | ![img](https://img.shields.io/github/stars/facebookresearch/llama) |
-| BELLE                    | BLOOMZ/LLaMA | zh               | 7B             | √                 | √                | -                                       | 2023-03-26   |            | ![img](https://img.shields.io/github/stars/LianjiaTech/BELLE) |
-| ChatGLM                  | GLM          | zh,en            | 6B             | √                 | x                | Tsinghua University                     | 2023-03-16   |            | ![img](https://img.shields.io/github/stars/THUDM/ChatGLM-6B) |
-| MOSS                     | -            | zh,en            | 16B            | √                 | √                | Fudan University                        | 2023-04-21   |            | ![img](https://img.shields.io/github/stars/OpenLMLab/MOSS)   |
-| Alpace                   | LLaMA        | en               | 7B             | √                 | √                | Stanford NLP Group                      | 2023-03-13   |            | ![img](https://img.shields.io/github/stars/tatsu-lab/stanford_alpaca) |
-| pandallm                 | LLaMA        | zh,en            | 7B/13B         | √                 | √                | Nanyang Technological University        | 2023-05-04   |            | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
-| Phoenix                  | BLOOMZ       | multi            | 7B             | √                 | √                | Shenzhen Research Institute of Big Data | 2023-04-08   |            | ![img](https://img.shields.io/github/stars/FreedomIntelligence/LLMZoo) |
-| Latin Phoenix: Chimera   | LLaMA        | multi            | 7/13B          | √                 | √                | Shenzhen Research Institute of Big Data | 2023-04-08   |            | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
-| Dolly                    | GPT-J        | en               | 6B             | √                 | √                | -                                       | 2023-03-24   |            | ![img](https://img.shields.io/github/stars/databrickslabs/dolly) |
-| Guanaco                  | LLaMA        | zh,en,ja,de      | 7B             | √                 | √                | -                                       | 2023-03-26   |            | ![img](https://img.shields.io/github/stars/Guanaco-Model/Guanaco-Model.github.io) |
-| Luotuo                   | LLaMA        | zh               | 7B             | √                 | √                | -                                       | 2023-03-31   |            | ![img](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM) |
-| ChatYuan                 | -            | zh,en            | ～10B          | √                 | x                | YuanYu.AI                               | 2023-03-23   |            | ![img](https://img.shields.io/github/stars/clue-ai/ChatYuan) |
+| Model                    |   Backbone   | Claimed language |   **Params**   | Open-source model | Open-source data |               Institution               | Release data | Evaluation |                            Stars                             |
+| ------------------------ | :----------: | :--------------: | :------------: | :---------------: | :--------------: | :-------------------------------------: | :----------: | :--------: | :----------------------------------------------------------: |
+| ChatGPT                  |      -       |      multi       |       -        |         x         |        x         |                 OpenAI                  |  2022-11-30  |            |                              -                               |
+| Bard                     |      -       |        -         |      137B      |         x         |        x         |                 Google                  |  2023-02-06  |            |                              -                               |
+| Claude                   |      -       |      zh, en      |      52B       |         x         |        x         |                    -                    |  2023-03-14  |            |                              -                               |
+| ERNIE Bot(Wenxin)        |      -       |        zh        |      260B      |         x         |        x         |                  Baidu                  |  2023-03-16  |            |                              -                               |
+| Tongyi Qianwen           |    TongYi    |      zh, en      |      ~10T      |         x         |        x         |                 Alibaba                 |  2023-04-07  |            |                              -                               |
+| SparkDesk(Xinghuorenzhi) |      -       |      zh, en      |       -        |         x         |        x         |                 iFLYTEK                 |  2023-0506   |            |                              -                               |
+| LLaMA                    |      -       |      multi       | 7B/13B/33B/65B |         √         |        √         |                 Meta AI                 |  2023-02-24  |            | ![img](https://img.shields.io/github/stars/facebookresearch/llama) |
+| BELLE                    | BLOOMZ/LLaMA |        zh        |       7B       |         √         |        √         |                    -                    |  2023-03-26  |            | ![img](https://img.shields.io/github/stars/LianjiaTech/BELLE) |
+| ChatGLM                  |     GLM      |      zh, en      |       6B       |         √         |        x         |           Tsinghua University           |  2023-03-16  |            | ![img](https://img.shields.io/github/stars/THUDM/ChatGLM-6B) |
+| MOSS                     |      -       |      zh, en      |      16B       |         √         |        √         |            Fudan University             |  2023-04-21  |            |  ![img](https://img.shields.io/github/stars/OpenLMLab/MOSS)  |
+| Alpace                   |    LLaMA     |        en        |       7B       |         √         |        √         |           Stanford NLP Group            |  2023-03-13  |            | ![img](https://img.shields.io/github/stars/tatsu-lab/stanford_alpaca) |
+| pandallm                 |    LLaMA     |      zh, en      |     7B/13B     |         √         |        √         |    Nanyang Technological University     |  2023-05-04  |            | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
+| Phoenix                  |    BLOOMZ    |      multi       |       7B       |         √         |        √         | Shenzhen Research Institute of Big Data |  2023-04-08  |            | ![img](https://img.shields.io/github/stars/FreedomIntelligence/LLMZoo) |
+| Latin Phoenix: Chimera   |    LLaMA     |      multi       |     7/13B      |         √         |        √         | Shenzhen Research Institute of Big Data |  2023-04-08  |            | ![img](https://img.shields.io/github/stars/dandelionsllm/pandallm) |
+| Dolly                    |    GPT-J     |        en        |       6B       |         √         |        √         |                    -                    |  2023-03-24  |            | ![img](https://img.shields.io/github/stars/databrickslabs/dolly) |
+| Guanaco                  |    LLaMA     |  zh, en, ja, de  |       7B       |         √         |        √         |                    -                    |  2023-03-26  |            | ![img](https://img.shields.io/github/stars/Guanaco-Model/Guanaco-Model.github.io) |
+| Luotuo                   |    LLaMA     |        zh        |       7B       |         √         |        √         |                    -                    |  2023-03-31  |            | ![img](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM) |
+| ChatYuan                 |      -       |      zh, en      |      ~10B      |         √         |        x         |                YuanYu.AI                |  2023-03-23  |            | ![img](https://img.shields.io/github/stars/clue-ai/ChatYuan) |
 
 <font color='grey'>(Evaluation will come soon)</font>
 
@@ -121,61 +121,62 @@ Able to accept images and text as input for text generation
 
 - [MathGPT]()  - [[website]](https://mathgpt.streamlit.app/) - It is a large-scale model that focuses on problem-solving and lecture algorithms in the field of mathematics for global mathematics enthusiasts and scientific research institutions.
 
-#### 相关论文
+#### Paper
 
 -   [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/pdf/2303.12712.pdf)
 -   [DeID-GPT: Zero-shot Medical Text De-Identification by GPT-4](https://arxiv.org/pdf/2303.11032.pdf)
 
-#### 模型微调
+#### Model Finetune
 
 ##### PEFT
 
 -   Chinese-LLaMA-Alpaca - https://github.com/LC1332/Chinese-alpaca-lora
 -   Yaya - https://github.com/qiyuan-chen/Yaya-Moss-Alpaca-LoRA
--   
 
 ##### 
 
-#### 模型评估
+#### Model Evaluation
 
-### 中游
 
-#### 量化
+
+### Midstream
+
+#### Quantify
 
 -   llama.cpp - https://github.com/ggerganov/llama.cpp
 
-#### 拓展
+#### Expansion
 
-#### 与其他模型的结合
+#### Combine with other models
 
-#### 二次开发
+#### Secondary development
 
-### 下游
+### Downstream
 
-#### Web 应用
+#### Web application
 
-#### 小程序
 
-#### 聊天机器人
 
-## 教程
+## Tutorial
 
-### 视频教程
+### Video
 
-### 博客
+### Blog
 
-## 资源
 
-### 工具
+
+## Resource
+
+### Tools
 
 -   peft - https://github.com/huggingface/peft
 
-### 免费 API
+### API
 
 -   GPTFree - https://github.com/xtekky/gpt4free
 
-### 镜像网站
+### Mirror site
 
 ## Contributions
 
-<p align="center"><a href="https://github.com/huaiwen"><img src="https://avatars.githubusercontent.com/u/3187529?v=4" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/YangYang"><img src="https://avatars.githubusercontent.com/u/17808880?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/guozihang"><img src="https://avatars.githubusercontent.com/u/17142416?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/LeeRoc-China"><img src="https://avatars.githubusercontent.com/u/59104898?s=400&u=c225a082a6a410e3d7c84ca29a07d723d7308dca&v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;</p>
+<p align="center"><a href="https://github.com/huaiwen"><img src="https://avatars.githubusercontent.com/u/3187529?v=4" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/guozihang"><img src="https://avatars.githubusercontent.com/u/17142416?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/LeeRoc-China"><img src="https://avatars.githubusercontent.com/u/59104898?s=400&u=c225a082a6a410e3d7c84ca29a07d723d7308dca&v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/YangYang"><img src="https://avatars.githubusercontent.com/u/17808880?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;</p>
