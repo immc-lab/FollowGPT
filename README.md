@@ -22,25 +22,25 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 
 ## Contents
 
--   [Learn about the large model](#Learn about the large model)
+-   [Learn about the large model](#Learn-about-the-large-model)
     -   [Upstream](#Upstream)
-        -   [Foundation model](#Foundation model)
-        -   [Model Finetune](#Model Finetune)
-        -   [Model Evaluation](#Model Evaluation)
+        -   [Foundation model](#Foundation-model)
+        -   [Model Finetune](#Model-Finetune)
+        -   [Model Evaluation](#Model-Evaluation)
     -   [Midstream](#Midstream)
         -   [Quantify](#Quantify)
         -   [Expansion](#Expansion)
-        -   [Combination with other models](#Combination with other models)
-        -   [Secondary development](#Secondary development)
+        -   [Combination with other models](#Combination-with-other-models)
+        -   [Secondary development](#Secondary-development)
     -   [Downstream](#Downstream)
-        -   [Web application](#Web application)
+        -   [Web application](#Web-application)
 -   [Tutorial](#Tutorial)
     -   [Video](#Video)
     -   [Blog](#Blog)
 -   [Resource](#Resource)
     -   [Tools](#Tools)
     -   [API](#API)
-    -   [Mirror site](#Mirror site)
+    -   [Mirror site](#Mirror-site)
 -   [Contributions](#Contributions)
 
 ---
