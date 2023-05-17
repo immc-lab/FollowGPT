@@ -5,17 +5,17 @@
 
 ## Prompt-based Papers
 
-### 2023 [[Back to Top⇪]](# Prompt-based\ Papers)
+### 2023 [[Back to Top⇪]](# Prompt-based-Papers)
 | Year | Title | Venue | Paper | Code | Citations |
 | ---- | ----- | ----- | ----- | ---- | ---- |
 |      |       |       |       |      |      |
-### 2022 [[Back to Top⇪](# Prompt-based\ Papers)]
+### 2022 [[Back to Top⇪](# Prompt-based-Papers)]
 
 | Year | Title | Venue | Paper | Code | Citations |
 | ---- | ----- | ----- | ----- | ---- | ---- |
 |      |       |       |       |      |      |
 
-### 2021 [[Back to Top⇪](# Prompt-based\ Papers)]
+### 2021 [[Back to Top⇪](# Prompt-based-Papers)]
 
 | Year | Title | Venue | Paper | Code | Citations |
 | ---- | ----- | ----- | ----- | ---- | ---- |
