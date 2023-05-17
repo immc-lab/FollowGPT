@@ -22,33 +22,12 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ---
 
 ## Summary of GPT 
-
-### GPT introduction
-
-
-
-
-### Foundation Models
-
-
-
-### GPT Related Papers
-
-
-
-### GPT Resources🧭
-
-#### web about
-
-
-#### Github repository
-
-
-
-### Finetuning tech
-
-
-
+### 1.
+### 2.
+### 3.
+### 4.
+### 5.
+### 6.
 ## Tutorials
 
 
