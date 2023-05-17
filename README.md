@@ -25,7 +25,7 @@ If you find this repository helpful, please give us a ⭐ or share it ⬆️.
 ## 内容
 
 -   [了解大模型](#学术&产业)
-    -   [上游](#上游)
+    -   [大模型有什么](#上游)
         -   [基座模型](#基座模型)
         -   [模型微调](#模型微调)
         -   [模型评估](#模型评估)
