@@ -18,6 +18,40 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 2023.05.17 start project!
 ```
 
+---
+
+## Summary of GPT 
+
+### GPT introduction
+
+
+
+
+### Foundation Models
+
+
+
+### GPT Related Papers
+
+
+
+### GPT Resources🧭
+
+#### web about
+
+
+#### Github repository
+
+
+
+### Finetuning tech
+
+
+
+## Tutorials
+
+
+
 ## Contributions
 
 <p align="center"><a href="https://github.com/huaiwen"><img src="https://avatars.githubusercontent.com/u/3187529?v=4" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/guozihang"><img src="https://avatars.githubusercontent.com/u/17142416?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/LeeRoc-China"><img src="https://avatars.githubusercontent.com/u/59104898?s=400&u=c225a082a6a410e3d7c84ca29a07d723d7308dca&v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/YangYang"><img src="https://avatars.githubusercontent.com/u/17808880?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;</p>
