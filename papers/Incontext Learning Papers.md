@@ -8,20 +8,20 @@
 ## Papers
 
 ### 2023 [[Back to Top⇪](#Incontext-Learning-Papers)]
-| Year | Title | Venue | Paper | Code | Citations |
-| ---- | ----- | ----- | ----- | ---- | ---- |
-|      |       |       |       |      |      |
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+|      |       |       |       |      |
 ### 2022 [[Back to Top⇪](#Incontext-Learning-Papers)]
 
-| Year | Title | Venue | Paper | Code | Citations |
-| ---- | ----- | ----- | ----- | ---- | ---- |
-|      |       |       |       |      |      |
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+|      |       |       |       |      |
 
 ### 2021 [[Back to Top⇪](#Incontext-Learning-Papers)]
 
-| Year | Title | Venue | Paper | Code | Citations |
-| ---- | ----- | ----- | ----- | ---- | ---- |
-|      |       |       |       |      |      |
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+|      |       |       |       |      |
 
 ## Contributors
 
