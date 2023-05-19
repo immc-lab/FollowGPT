@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
 -  [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪) 
--  [Back to HOME🏠](../README.md)
+-  [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
 
 ## Papers
 ### 2023 [[Back to Top⇪](#Incontext-Learning-Papers)]
