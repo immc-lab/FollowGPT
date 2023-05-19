@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Incontext Learning Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
