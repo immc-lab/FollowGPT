@@ -24,7 +24,7 @@
 | 2023 | The Capacity for Moral Self-Correction in Large Language Models |       | [link](https://arxiv.org/abs/2302.07459) | -                                               |
 |      |                                                              |       |                                          |                                                 |
 
-### 2022 [[Back to Top⇪](#RLHF-Related-Papers
+### 2022 [[Back to Top⇪](#RLHF-Related-Papers)]
 
 | Year | Title                                                        | Venue | Paper                                    | Code                                                         |
 | ---- | ------------------------------------------------------------ | ----- | ---------------------------------------- | ------------------------------------------------------------ |
