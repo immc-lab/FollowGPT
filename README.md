@@ -8,7 +8,39 @@
 
 ---
 
-With the development of deep learning, large models continue to emerge. Large models can be models with a huge number of parameters in deep learning models. Recently, some work has effectively guided the knowledge of large models by combining the relevant foundation of reinforcement learning through the RLHF technique, allowing large models to achieve amazing results. However, there is currently a lack of systematic and logical integration of large model resources on the internet, which hinders the enthusiasm of many people to explore large model technology. Therefore, we have integrated the existing resources on the network to provide a clear and logical context.
+The development of artificial intelligence has gone through three stages: computational intelligence, perceptual intelligence, and cognitive intelligence. Computational intelligence focuses on the basic computing and storage capabilities of machines, where machines have already surpassed humans. Perceptual intelligence emphasizes machine's pattern recognition abilities, such as speech and image recognition, and currently machines have reached or even exceeded human levels in perceptual intelligence. However, there still exists a significant gap between machines and humans in cognitive intelligence, which involves research areas like natural language processing, common-sense modeling, and reasoning.
+
+Human language, also known as natural language, possesses pervasive ambiguity, high abstraction, almost infinite semantic combinations, and continuous evolution. Understanding language requires certain cognitive abilities such as knowledge and reasoning, which pose significant challenges for computers in processing natural language and create an insurmountable gap. Therefore, natural language processing is considered one of the bottlenecks that restrict greater breakthroughs and wider applications of artificial intelligence, and it is hailed as the 'crown jewel' on the crown of artificial intelligence.
+
+Since its inception, natural language processing has undergone five paradigm shifts in research. It has evolved from initial methods based on small-scale expert knowledge to methods based on machine learning. Machine learning methods have also transitioned from early shallow machine learning models to deep learning models. To address the issue of deep learning models requiring a large amount of annotated data, a comprehensive shift towards methods based on large-scale pre-trained language models began in 2018. These methods leverage the strengths of 'big models, big data, and big computing' to achieve better results.
+
+Recently, ChatGPT has demonstrated impressive language comprehension, generation, and knowledge reasoning abilities. It can effectively understand user intent, engage in multi-turn conversations, and provide complete, focused, concise, logical, and organized responses. ChatGPT's successful performance has shown a possible path to addressing the core problem of cognitive intelligence in natural language processing and is considered a solid step towards general artificial intelligence.
+
+Of course, such powerful functionality cannot be achieved by a simple model alone. Training GPT models requires an enormous amount of training data, a vast number of model parameters, and powerful computing resources. The GPT series models adhere to the concept of continuously stacking transformers and achieve iterative updates by increasing the scale and quality of training data, as well as expanding the number of network parameters. GPT has also proven that by increasing model capacity and training data scale, the model's capabilities can continue to improve.
+
+|  Model  | Release Time | Parameter Quantity | Volume of pretrained data |
+| :-----: | :----------: | :----------------: | :-----------------------: |
+|   GPT   |    2018.6    |    117 million     |         About 5GB         |
+|  GPT-2  |    2019.2    |    1.5 billion     |           40GB            |
+|  GPT-3  |    2020.5    |    175 billion     |           45TB            |
+| chatGPT |   2022.11    |         -          |             -             |
+|  GPT-4  |    2023.3    |         -          |             -             |
+
+In 2018, OpenAI introduced the first-generation GPT (Generative Pretrained Transformer) model. GPT-1 employed the Transformer architecture and large-scale unsupervised pretraining, serving as a natural language generation model. It exhibited outstanding performance on various natural language processing tasks and achieved state-of-the-art results in language modeling for individual English sentences. The success of GPT-1 provided new ideas and methods for the development of pretrained models in natural language processing.
+
+Despite the significant success of GPT-1, it did not receive much attention. Instead, Google's subsequent introduction of the BERT (Bidirectional Encoder Representations from Transformers) model created a greater sensation. However, OpenAI continued along the technical path of the first-generation GPT and subsequently released the GPT-2 and GPT-3 models.
+
+GPT-2 aimed to train a more generalizable word embedding model. It did not introduce significant structural innovations or designs to GPT-1's network but utilized a larger number of network parameters and a larger dataset. The major contribution of GPT-2 was to validate that word embedding models trained on massive data and with a large number of parameters could be transferred to other downstream tasks without additional training. However, many experiments also indicated that there was still significant room for improvement with GPT-2.
+
+GPT-3 demonstrated exceptional performance on downstream tasks with zero-shot or few-shot learning. In addition to several common NLP tasks, GPT-3 showcased remarkable capabilities in challenging tasks such as generating human-indistinguishable articles, writing SQL queries, and producing React or JavaScript code. These powerful abilities relied on GPT-3's enormous scale of 175 billion parameters and the introduction of the concept of "prompts." By providing specific task prompts, the model could accomplish the task even without fine-tuning.
+
+It was not until the emergence of ChatGPT that people's perception of large models was completely changed. Based on GPT-3.5, ChatGPT utilized human feedback reinforcement learning techniques, using human preferences as reward signals to fine-tune the model and achieve logical conversational abilities. Its goal was to generate useful, realistic, and benign text content. However, despite ChatGPT's impressive performance in many aspects, it still has some limitations. For instance, it still falls far behind human cognitive levels in deep semantic understanding and generation.
+
+GPT-4 represents OpenAI's latest milestone in expanding deep learning. It is a large-scale multimodal model capable of accepting both image and text inputs and generating text outputs. While its capabilities in real-world scenarios may not match those of humans, it exhibits human-level performance on various professional and academic benchmarks. For example, it passed a simulated lawyer exam, scoring in the top 10% of candidates, whereas GPT-3.5 scored in the bottom 10%. GPT-4 demonstrates increased creativity and collaboration. It can generate, edit, and iterate on user-provided creative and technical writing tasks, such as composing songs, writing scripts, or learning a user's writing style. GPT-4 can also accept images as input and generate captions, classify images, and perform analysis. Furthermore, GPT-4 can handle texts with over 25,000 words, allowing for use cases involving long-form content creation, expanded conversations, document searching, and analysis.
+
+Although GPT has achieved remarkable accomplishments thus far, there are still numerous research directions to explore in the future. For example, a common issue when questioning machines is the contextual background knowledge. For instance, if we ask a machine to tell a joke and then ask it a serious question, humans can perceive the change from your facial expressions and know that the context is no longer a joke, whereas artificial intelligence would continue with the joke. This contextual awareness plays a significant role in interactions. Additionally, in terms of problem-solving difficulty, when solving the same mathematical equation, we may need to simplify it five or six times before transforming it into the correct form, continually learning these simplifications. Machine reasoning, on the other hand, is achieved through a hierarchy of linear descent in reasoning chains, and if simplification requires running 10 times, the machine might not proceed. Mathematics involves highly abstract reasoning, which remains a major weakness of artificial intelligence. Each weak link requires time to address, and it should be treated seriously. We need more innovative approaches, such as training models in mathematical aspects through prompts or exercises.
+
+Currently, we are just at the beginning of a new phase in artificial intelligence. We are in a stage of enthusiasm, similar to the past enthusiasm for the internet. However, the lack of systematic and logically organized resources on the internet hinders many people's exploration of large model technologies. Therefore, we have integrated existing resources on the web to provide a clear and logically coherent framework.
 
 If you find this repository helpful, please give us a ⭐ or share it 🥰.
 
@@ -27,7 +59,6 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ### 3.
 ### 4.
 ### 5.
-### 6.
 ## Tutorials
 
 
