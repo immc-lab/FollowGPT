@@ -20,6 +20,7 @@ fine-tuning and minimizing the computational burden associated with training and
 access to powerful hardware or need to fine-tune models on low-resource devices. By reducing the parameter and computational requirements, parameter-efficient fine-tuning enables a wider range of 
 users to leverage pre-trained language models effectively. This accessibility opens up opportunities for individuals and organizations with limited resources to participate in NLP research and 
 application development, fostering innovation and democratizing access to advanced language processing capabilities.
+
 A review of parameter-efficient fine-tuning.This paper presents a systematic overview and comparison of parameter-efficient finetuning methods covering over 40 papers published between February 2019 
 and February 2023.
 
@@ -37,6 +38,7 @@ lower memory requirements. Adapters can be trained for multiple tasks and then i
 This technique involves gradually reducing the size of the pre-trained model during fine-tuning. Starting from a large model, the number of parameters is gradually decreased until the desired performance 
 is achieved. This approach can result in smaller models with better performance compared to training from scratch.
 
+### Paper of PEFT
 | Adapter       | Title                                                                                          | Paper                                              | Code                                                             |
 |---------------|------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------|
 | LoRA          | LORA:LOW-RANK ADAPTATION OF LARGE LANGUAGE MODEL                                               | [Link](https://arxiv.org/pdf/2106.09685.pdf)       | [Link](https://github.com/microsoft/LoRA)                        |
@@ -57,6 +59,7 @@ efficient fine-tuning.
 Proposed by Liu et al. in the paper "P-Tuning: GPT Understands, Learns, and Generates Any Language" (2021), P-Tuning involves training learnable parameters called "prompt tokens" that are concatenated with the input 
 sequence. These prompt tokens are task-specific and optimized during the fine-tuning process, enabling the model to perform well on new tasks while keeping the original model parameters unchanged.
 
+### prompt-tuning
 | Adapter       | Title                                                                                          | Paper                                              | Code                                                             |
 |---------------|------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------|
 | Prefix Tuning | Prefix-Tuning: Optimizing Continuous Prompts for Generation                                    | [Link](https://aclanthology.org/2021.acl-long.353/) | [Link](https://github.com/XiangLi1999/PrefixTuning)              |
