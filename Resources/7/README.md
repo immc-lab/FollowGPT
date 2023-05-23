@@ -5,6 +5,7 @@
 - [FastChat](https://github.com/lm-sys/FastChat#evaluation)  Use GPT-4 to generate reviews automatically.
 - [Chinese LLM evaluation lab](http://115.182.62.166:18000/public)
 - [中文通用大模型综合性基准SuperCLUE](https://github.com/CLUEbenchmark/SuperCLUE)
+- [chatbot arena](https://chat.lmsys.org/?leaderboard)
 
 
 
