@@ -59,7 +59,9 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ### 2.
 ### 3.
 The use of pre trained large-scale models for fine-tuning downstream tasks is currently a popular deep learning paradigm. Especially with the outstanding performance of the recently pre trained language model ChatGPT, this technical paradigm has been widely recognized. We mainly answered the question of what big models are available, and from a macro perspective, introduced the readers to what big models are available and what scope they cover. We have collected relevant papers from 2021 to the present from three aspects of natural language processing, computer vision and multimodality. Large models started early in the field of natural language processing, and then gradually evolved into computer vision related fields, such as SAM, which can split everything. At present, integrating large models from multiple professional fields has become a new paradigm for training large models in multimodal fields, such as Huawei's Pangu model, which covers fields such as finance and meteorology. Our link[Resources3](./Resources/3)
-### 4.
+### 4. How to Understand the Foundation Model & How to Experience the Foundation Model
+In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms. 
+For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in [Part IV]() to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model.
 ### 5.
 ## Tutorials
 
