@@ -54,7 +54,8 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ---
 
 ## Summary of GPT 
-### 1.
+<h3><b>1.</b> <span style="font-weight: normal; font-size: medium;">Generative Pretrained Transformer (GPT) models have demonstrated significant proficiency in understanding and generating language, one of their standout characteristics is their versatility across domains. Regardless of the text data in question, GPT models can generate coherent, contextually accurate, and often insightful responses without being explicitly trained on the task. This adaptability is quite remarkable and sets GPT models apart in the landscape of language models.Another point of praise for GPT is its ability to engage in semantic search. Instead of merely matching keywords, as with traditional search algorithms, GPT can comprehend the meaning behind the words. This enables it to provide more relevant, precise, and contextually fitting results, highlighting its utility in data mining and information retrieval applications.</span></h3>
+
 ### 2.
 ### 3.
 ### 4.
