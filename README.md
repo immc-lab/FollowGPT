@@ -67,7 +67,7 @@ In this section, we have collected all relevant papers on In-context Learning an
 ### 6. LLM Fine Tuning Principle Introduction and Paper
 Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. In this part, we make a brief introduction to the fine tuning technology, and systematically introduce the fine tuning technology commonly used in LLM. At the same time, we made a summary of RLHF related technologies and collected relevant papers from 2021 to 2023.
 ### 7. LLM Tutorial Resources and Evaluation Comparison
-
+In this section, We've collected existing LLM tutorial resources, as well as large model evaluation comparisons.
 ## Tutorials
 
 
