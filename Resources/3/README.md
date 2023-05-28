@@ -1,4 +1,4 @@
-# Huge Model Papers
+# Huge Model Paper
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
