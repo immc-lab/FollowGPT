@@ -53,7 +53,7 @@ remains unchanged, and only the input prompts are modified to adapt to downstrea
 The main difference between prompt-tuning and traditional fine-tuning lies in the extent to which the pre-trained model is modified. While fine-tuning modifies the model's weights, prompt-tuning only adjusts 
 the model's input. As a result, prompt-tuning incurs lower computational costs, requires fewer resources, and takes less training time compared to fine-tuning. Additionally, prompt-tuning is more flexible than 
 fine-tuning because it allows for the creation of task-specific prompts that can adapt to a wide range of tasks.
-#### 4.Prefix tuning
+#### 1.Prefix tuning
 Proposed by Li and Liang in the paper "Prefix-Tuning: Optimizing Continuous Prompts for Generation" (2021), prefix-tuning involves learning continuous prompts specific to a task and adding them before the input 
 during the inference process. By optimizing this continuous prompt, the model can adapt to specific tasks without modifying the underlying model parameters, resulting in computational resource savings and achieving 
 efficient fine-tuning.
