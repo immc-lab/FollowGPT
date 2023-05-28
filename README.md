@@ -63,8 +63,11 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms. 
 For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in Part IV to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model. Our link [Resources4](https://github.com/immc-lab/FollowGPT/tree/main/Resources/4)
 ### 5. Paper of Prompt and Incontent Learning
+In this section, we have collected all relevant papers on In-context Learning and Prompt Learning from 2021 to 2023.
 ### 6. LLM Fine Tuning Principle Introduction and Paper
+Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. In this part, we make a brief introduction to the fine tuning technology, and systematically introduce the fine tuning technology commonly used in LLM. At the same time, we made a summary of RLHF related technologies and collected relevant papers from 2021 to 2023.
 ### 7. LLM Tutorial Resources and Evaluation Comparison
+
 ## Tutorials
 
 
