@@ -62,7 +62,9 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 ### 4. How to Understand the Foundation Model & How to Experience the Foundation Model
 In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms. 
 For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in Part IV to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model. Our link [Resources4](https://github.com/immc-lab/FollowGPT/tree/main/Resources/4)
-### 5.
+### 5. Paper of Prompt and Incontent Learning
+### 6. LLM Fine Tuning Principle Introduction and Paper
+### 7. LLM Tutorial Resources and Evaluation Comparison
 ## Tutorials
 
 
