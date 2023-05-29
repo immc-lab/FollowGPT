@@ -73,7 +73,7 @@ In this section, we have collected all relevant papers on In-context Learning an
 |Contest|Hyperlist|
 |-|-|
 |Incontext Learning Papers|[Link](./Resources/5/Incontext%20Learning%20Papers.md)|
-|Incontext Learning Papers|[Link](./Resources/5/Prompt-based%20Papers.md)|
+|Prompt-based Papers|[Link](./Resources/5/Prompt-based%20Papers.md)|
 
 ### 6. LLM Fine Tuning Principle Introduction and Paper
 
