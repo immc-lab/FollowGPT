@@ -44,7 +44,6 @@ Currently, we are just at the beginning of a new phase in artificial intelligenc
 
 If you find this repository helpful, please give us a ⭐ or share it 🥰.
 
-
 ## News📰
 
 ```
@@ -53,26 +52,39 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 
 ---
 
-## Summary of GPT 
+## Summary of GPT
+
 <h3><b>1.</b> <span style="font-weight: normal; font-size: medium;">Generative Pretrained Transformer (GPT) models have demonstrated significant proficiency in understanding and generating language, one of their standout characteristics is their versatility across domains. Regardless of the text data in question, GPT models can generate coherent, contextually accurate, and often insightful responses without being explicitly trained on the task. This adaptability is quite remarkable and sets GPT models apart in the landscape of language models.Another point of praise for GPT is its ability to engage in semantic search. Instead of merely matching keywords, as with traditional search algorithms, GPT can comprehend the meaning behind the words. This enables it to provide more relevant, precise, and contextually fitting results, highlighting its utility in data mining and information retrieval applications.</span></h3>
 
 ### 2.
+
 ### 3.
+
 The use of pre trained large-scale models for fine-tuning downstream tasks is currently a popular deep learning paradigm. Especially with the outstanding performance of the recently pre trained language model ChatGPT, this technical paradigm has been widely recognized. We mainly answered the question of what big models are available, and from a macro perspective, introduced the readers to what big models are available and what scope they cover. We have collected relevant papers from 2021 to the present from three aspects of natural language processing, computer vision and multimodality. Large models started early in the field of natural language processing, and then gradually evolved into computer vision related fields, such as SAM, which can split everything. At present, integrating large models from multiple professional fields has become a new paradigm for training large models in multimodal fields, such as Huawei's Pangu model, which covers fields such as finance and meteorology. Our link[Resources3](./Resources/3)
+
 ### 4. How to Understand the Foundation Model & How to Experience the Foundation Model
-In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms. 
+
+In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms.
 For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in Part IV to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model. Our link [Resources4](https://github.com/immc-lab/FollowGPT/tree/main/Resources/4)
+
 ### 5. Paper of Prompt and Incontent Learning
+
 In this section, we have collected all relevant papers on In-context Learning and Prompt Learning from 2021 to 2023.
+|Contest|Hyperlist|
+|-|-|
+|Incontext Learning Papers|[Link](./Resources/5/Incontext%20Learning%20Papers.md)|
+|Incontext Learning Papers|[Link](./Resources/5/Prompt-based%20Papers.md)|
+
 ### 6. LLM Fine Tuning Principle Introduction and Paper
+
 Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. In this part, we make a brief introduction to the fine tuning technology, and systematically introduce the fine tuning technology commonly used in LLM. At the same time, we made a summary of RLHF related technologies and collected relevant papers from 2021 to 2023.
+
 ### 7. LLM Tutorial Resources and Evaluation Comparison
+
 In this section, We've collected existing LLM tutorial resources, as well as large model evaluation comparisons.
+
 ## Tutorials
-
-
 
 ## Contributions
 
 <p align="center"><a href="https://github.com/huaiwen"><img src="https://avatars.githubusercontent.com/u/3187529?v=4" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/guozihang"><img src="https://avatars.githubusercontent.com/u/17142416?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/LeeRoc-China"><img src="https://avatars.githubusercontent.com/u/59104898?s=400&u=c225a082a6a410e3d7c84ca29a07d723d7308dca&v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/YangYang"><img src="https://avatars.githubusercontent.com/u/17808880?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;<a href="https://github.com/yangqqq-yq"><img src="https://avatars.githubusercontent.com/u/64053857?v=4" width="50px" alt="0xmatchmaker" /></a>&nbsp;&nbsp;</p>
-
