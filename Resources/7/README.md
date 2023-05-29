@@ -6,6 +6,7 @@
 - [Chinese LLM evaluation lab](http://115.182.62.166:18000/public)
 - [中文通用大模型综合性基准SuperCLUE](https://github.com/CLUEbenchmark/SuperCLUE)
 - [chatbot arena](https://chat.lmsys.org/?leaderboard)
+- [open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
 
 
