@@ -1,6 +1,0 @@
-1. Pytorch: "PyTorch: An Imperative Style, High-Performance Deep Learning Library". Adam Paszke el al. NeurIPS 2019. [[Paper](https://arxiv.org/abs/1912.01703)] [[Source](https://pytorch.org/)]
-2. TensorFlow: "TensorFlow: A system for large-scale machine learning". Martín Abadi et al. OSDI 2016. [[Paper](https://arxiv.org/abs/1605.08695)] [[Source](https://www.tensorflow.org/)]
-3. MXNet: "MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems". Tianqi Chen et al. arXiv 2015. [[Paper](https://arxiv.org/abs/1512.01274)] [[Source](https://github.com/apache/mxnet)]
-4. PaddlePaddle: "PaddlePaddle: An Open-Source Deep Learning Platform from Industrial Practice" . Yanjun Ma et al. Frontiers of Data and Domputing 2019. [[Paper](http://www.jfdc.cnic.cn/EN/abstract/abstract2.shtml)] [[Source](https://github.com/PaddlePaddle/Paddle)]
-5. MindSpore: "Huawei MindSpore AI Development Framework" . Huawei Technologies Co., Ltd. Artificial Intelligence Technology 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-981-19-2879-6_5)] [[Source](https://github.com/mindspore-ai/mindspore)]
-6. OneFlow: "OneFlow: Redesign the Distributed Deep Learning Framework from Scratch" . Jinhui Yuan et al. arXiv 2021. [[Paper](https://arxiv.org/abs/2110.15032)] [[Source](https://github.com/Oneflow-Inc/oneflow)]
