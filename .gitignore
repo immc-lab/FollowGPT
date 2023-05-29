@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+.obsidian
 # Distribution / packaging
 .Python
 build/
