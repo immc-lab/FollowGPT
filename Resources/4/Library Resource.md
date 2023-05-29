@@ -1,0 +1,7 @@
+1. Transformers: "Transformers: State-of-the-Art Natural Language Processing". Thomas Wolf et al. EMNLP 2020. [[Paper](https://arxiv.org/abs/1910.03771)] [[Source](https://huggingface.co/)]
+2. DeepSpeed: "Deepspeed: System optimizations enable training deep learning models with over 100 billion parameters". Rasley et al. KDD 2020. [[Paper](https://dl.acm.org/doi/10.1145/3394486.3406703)] [[Source](https://github.com/microsoft/DeepSpeed)]
+3. Megatron-LM: "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism". Mohammad Shoeybi et al. arXiv 2019. [[Paper](https://arxiv.org/abs/1909.08053)]] [[Source](https://github.com/NVIDIA/Megatron-LM)]
+4. JAX: [[Source](https://github.com/google/jax)]
+5. Colossal-AI: "Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training". Zhengda Bian et al. arXiv 2021. [[Paper](http://arxiv.org/abs/2110.14883v2)] [[Source](https://github.com/hpcaitech/ColossalAI)]
+6. BMTrain: [[Source](https://github.com/OpenBMB/BMTrain)]
+7. FastMoE: "FastMoE: A Fast Mixture-of-Expert Training System". Jiaao He et al. arXiv 2021. [[Paper](https://arxiv.org/abs/2103.13262)]] [[Source](https://github.com/laekov/fastmoe)]
