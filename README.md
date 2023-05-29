@@ -47,7 +47,8 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ## News📰
 
 ```
-2023.05.17 start project!
+2023.05.29 Resource collection completed!
+2023.05.17 Start project!
 ```
 
 ---
