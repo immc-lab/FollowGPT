@@ -65,6 +65,18 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 
 In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms.
 For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in Part IV to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model. Our link [Resources 4](https://github.com/immc-lab/FollowGPT/tree/main/Resources/4)
+|Content|Hyperlist🔗|
+|-|-|
+|A tutorial presented in video format|[Link](Resources/4/A%tutorial%presented%in%video%format.md)|
+|Capabilities and Future of Large Language Models|[Link](Resources/4/Capabilities%and%Future%of%Large%Language%Models.md)|
+|ChatGPT Prompt Engineering for Developers|[Link](Resources/4/ChatGPT%20Prompt%20Engineering%20for%20Developers.md)|
+|ChatGPT|[Link](Resources/4/ChatGPT.md)|
+|How to understand large-scale models|[Link](Resources/4/How%20to%20understand%20large-scale%20models%20.md)|
+|Introduction to large-scale models and their terminology|[Link](Resources/4/Introduction%20to%20large-scale%20models%20and%20their%20terminology.md)|
+|Commonly Used Corpora|[Link](Resources/4/Commonly%20Used%20Corpora.md)|
+|Publicly Available Models|[Link](Resources/4/Publicly%20Available%20Models.md)|
+|Library Resource|[Link](Resources/4/Library%20Resource.md)|
+|Deep Learning Frameworks|[Link](Resources/4/Deep%20Learning%20Frameworks.md)|
 
 ### LLM Fine Tuning Principle Introduction
 
