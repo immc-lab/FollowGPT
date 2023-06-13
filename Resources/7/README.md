@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Existing Large Model Summary and Related Tutorial Resources
 
 ## Large model evaluation methods
