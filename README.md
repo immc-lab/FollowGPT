@@ -66,10 +66,6 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 -   [NLP](#Huge Models for NLP) | [CV](#Huge Models for CV) | [Multimodal](#Huge Models for Multimodal)
 -   [Back to HOME🏠](../README.md)
 
-## Papers
-
-### Huge Models
-
 #### Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
 
 | Year | Model Name         | Title                                                                                                                                       | Venue                                        | Paper                                                                                                                           | Code                                                                         |
