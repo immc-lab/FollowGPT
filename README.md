@@ -68,70 +68,70 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 
 ## Papers
 
-### Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
+### Huge Models
 
- Year | Model Name | Title | Venue | Paper | Code 
----|---|---|---|---|---
- 2023 | Dolly 2.0 | - | - | - | [link](https://github.com/zhengzangw/awesome-huge-models/tree/main) 
- 2023 | StableLM | - | - | - | [link](https://huggingface.co/stabilityai) 
- 2023 | Cerabras-GPT | Training Compute-Optimal Large Language Models | arxiv | [link](https://arxiv.org/abs/2203.15556) | - 
- 2023 | LLaMa | Open and Efficient Foundation Language Models | arxiv | [link](https://arxiv.org/pdf/2302.13971v1.pdf) | [link](https://github.com/facebookresearch/llama) 
- 2022 | BLOOM | A 176B-Parameter Open-Access Multilingual Language Model | arxiv | [link](https://arxiv.org/pdf/2211.05100.pdf) | [link](https://huggingface.co/bigscience/bloom) 
- 2022 | Galactica | A scientific language model trained on over 48 million scientific texts | arxiv | [linl](https://arxiv.org/pdf/2211.09085.pdf) | [link](https://huggingface.co/facebook/galactica-1.3b) 
- 2022 | GLM-130B | GLM-130B: An Open Bilingual Pre-trained Model | ICLR 2023 | [link](https://arxiv.org/pdf/2210.02414.pdf) | [link](https://github.com/THUDM/GLM-130B) 
- 2022 | UL2 | Unifying Language Learning Paradigms | arxiv | [link](https://arxiv.org/pdf/2205.05131.pdf) | [link](https://huggingface.co/google/ul2) 
- 2022 | OPT | OPT: Open Pre-trained Transformer Language Models | arxiv | [link](https://arxiv.org/pdf/2205.01068.pdf) | [link](https://github.com/facebookresearch/metaseq) 
- 2022 | PaLM | PaLM: Scaling Language Modeling with Pathways | arxiv | [link](https://arxiv.org/pdf/2204.02311.pdf) | - 
- 2022 | GPT-NeoX | GPT-NeoX-20B: An Open-Source Autoregressive Language Model | ACL 2022 | [link](https://arxiv.org/pdf/2204.06745.pdf) | [link](https://github.com/EleutherAI/gpt-neox) 
- 2022 | InstructGPT | Training language models to follow instructions with human feedback | [link](https://arxiv.org/pdf/2203.02155.pdf) | - |  
- 2022 | EVA 2.0 | EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Trainingraining language mode | arxiv | [link](https://arxiv.org/pdf/2203.09313.pdf) | [link](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master) 
- 2022 | AlphaCode | Competition-Level Code Generation with AlphaCode | arxiv | [link](https://arxiv.org/pdf/2203.07814.pdf) | - 
- 2022 | ST-MoE | ST-MoE: Designing Stable and Transferable Sparse Expert Models | arxiv | [link](https://arxiv.org/pdf/2202.08906.pdf) | - 
- 2022 | LaMDA | LaMDA: Language Models for Dialog Applications | arxiv | [link](https://arxiv.org/pdf/2201.08239.pdf) | - 
- 2022 | ERNIE-ViLG | ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation | arxiv | [link](https://arxiv.org/pdf/2112.15283.pdf) | - 
- 2021 | GLaM | GLaM: Efficient Scaling of Language Models with Mixture-of-Experts | ICML 2022 | [link](https://arxiv.org/pdf/2112.06905.pdf) | - 
- 2021 | Gopher | Scaling Language Models: Methods, Analysis & Insights from Training Gopher | arxiv | [link](https://arxiv.org/pdf/2112.11446.pdf) | - 
- 2021 | Yuan 1.0 | Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning | arxiv | [link](https://arxiv.org/pdf/2110.04725.pdf) | - 
- 2021 | MT-NLG | Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model | arxiv | [link](https://arxiv.org/pdf/2201.11990.pdf) | - 
- 2021 | Codex | Evaluating Large Language Models Trained on Code | arxiv | [link](https://arxiv.org/pdf/2107.03374.pdf) | - 
- 2021 | ERNIE 3.0 | ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation | arxiv | [link](https://arxiv.org/pdf/2107.02137.pdf) | - 
- 2021 | HyperClova | What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers | EMNLP 2021 | [link](https://arxiv.org/pdf/2109.04650v1.pdf) | - 
- 2021 | ByT5 | ByT5: Towards a token-free future with pre-trained byte-to-byte models | TACL 2022 | [link](https://arxiv.org/pdf/2105.13626.pdf) | [link](https://github.com/google-research/byt5) 
- 2021 | PanGu-α | PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation | arxiv | [link](https://arxiv.org/pdf/2104.12369.pdf) | - 
- 2021 | mT5 | mT5: A massively multilingual pre-trained text-to-text transformer | arxiv | [link](https://arxiv.org/pdf/2010.11934.pdf) | [link](https://github.com/google-research/multilingual-t5) 
- 2021 | GLM | GLM: General Language Model Pretraining with Autoregressive Blank Infilling | ACL 2022 | [link](https://arxiv.org/pdf/2103.10360.pdf) | [link](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/GLM) 
- 2021 | Switch Transformer | Scaling to Trillion Parameter Models with Simple and Efficient Sparsity | JMLR 2021 | [link](https://arxiv.org/pdf/2101.03961.pdf) | - 
- 2020 | CPM | CPM: A Large-scale Generative Chinese Pre-trained Language Model | arxiv | [link](https://arxiv.org/pdf/2012.00413.pdf) | [link](https://github.com/TsinghuaAI/CPM) 
- 2020 | GPT-3 | Language Models are Few-Shot Learners | arxiv | [link](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) | - 
- 2020 | Blender | Recipes for building an open-domain chatbot | arxiv | [link](https://arxiv.org/pdf/2004.13637.pdf) | - 
- 2020 | Meena | Towards a Human-like Open-Domain Chatbot | arxiv | [link](https://arxiv.org/pdf/2001.09977.pdf) | - 
- 2019 | DialoGPT | DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation | ACL 2020 | [link](https://arxiv.org/pdf/1911.00536.pdf) | [link](https://github.com/microsoft/DialoGPT) 
- 2019 | T5 | Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer | JMLR 2019 | [link](https://arxiv.org/pdf/1910.10683.pdf) | [link](https://github.com/google-research/text-to-text-transfer-transformer) 
- 2019 | Megatron-LM | Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism | arxiv | [link](https://arxiv.org/pdf/1909.08053.pdf) | [link](https://github.com/NVIDIA/Megatron-LM) 
- 2019 | RoBERTa | RoBERTa: A Robustly Optimized BERT Pretraining Approach | arxiv | [link](https://arxiv.org/pdf/1907.11692.pdf) | [link](https://github.com/facebookresearch/fairseq) 
- 2019 | XLNet | XLNet:Generalized Autoregressive Pretraining for Language Understanding | NeurIPS 2019 | [link](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html) | [link](https://github.com/zihangdai/xlnet) 
- 2019 | GPT-2 | Language Models are Unsupervised Multitask Learners | arxiv | [link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | [link](https://github.com/NVIDIA/Megatron-LM) 
- 2018 | GPT | Improving Language Understanding by Generative Pre-Training | - | [link](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) | [link](https://github.com/google-research/vmoe) 
- 2018 | BERT | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | NAACL 2018 | [link](https://arxiv.org/pdf/1810.04805.pdf) | [link](https://github.com/google-research/bert) 
+#### Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
 
+| Year | Model Name         | Title                                                                                                                                       | Venue                                        | Paper                                                                                                                           | Code                                                                         |
+| ---- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 2023 | Dolly 2.0          | -                                                                                                                                           | -                                            | -                                                                                                                               | [link](https://github.com/zhengzangw/awesome-huge-models/tree/main)          |
+| 2023 | StableLM           | -                                                                                                                                           | -                                            | -                                                                                                                               | [link](https://huggingface.co/stabilityai)                                   |
+| 2023 | Cerabras-GPT       | Training Compute-Optimal Large Language Models                                                                                              | arxiv                                        | [link](https://arxiv.org/abs/2203.15556)                                                                                        | -                                                                            |
+| 2023 | LLaMa              | Open and Efficient Foundation Language Models                                                                                               | arxiv                                        | [link](https://arxiv.org/pdf/2302.13971v1.pdf)                                                                                  | [link](https://github.com/facebookresearch/llama)                            |
+| 2022 | BLOOM              | A 176B-Parameter Open-Access Multilingual Language Model                                                                                    | arxiv                                        | [link](https://arxiv.org/pdf/2211.05100.pdf)                                                                                    | [link](https://huggingface.co/bigscience/bloom)                              |
+| 2022 | Galactica          | A scientific language model trained on over 48 million scientific texts                                                                     | arxiv                                        | [linl](https://arxiv.org/pdf/2211.09085.pdf)                                                                                    | [link](https://huggingface.co/facebook/galactica-1.3b)                       |
+| 2022 | GLM-130B           | GLM-130B: An Open Bilingual Pre-trained Model                                                                                               | ICLR 2023                                    | [link](https://arxiv.org/pdf/2210.02414.pdf)                                                                                    | [link](https://github.com/THUDM/GLM-130B)                                    |
+| 2022 | UL2                | Unifying Language Learning Paradigms                                                                                                        | arxiv                                        | [link](https://arxiv.org/pdf/2205.05131.pdf)                                                                                    | [link](https://huggingface.co/google/ul2)                                    |
+| 2022 | OPT                | OPT: Open Pre-trained Transformer Language Models                                                                                           | arxiv                                        | [link](https://arxiv.org/pdf/2205.01068.pdf)                                                                                    | [link](https://github.com/facebookresearch/metaseq)                          |
+| 2022 | PaLM               | PaLM: Scaling Language Modeling with Pathways                                                                                               | arxiv                                        | [link](https://arxiv.org/pdf/2204.02311.pdf)                                                                                    | -                                                                            |
+| 2022 | GPT-NeoX           | GPT-NeoX-20B: An Open-Source Autoregressive Language Model                                                                                  | ACL 2022                                     | [link](https://arxiv.org/pdf/2204.06745.pdf)                                                                                    | [link](https://github.com/EleutherAI/gpt-neox)                               |
+| 2022 | InstructGPT        | Training language models to follow instructions with human feedback                                                                         | [link](https://arxiv.org/pdf/2203.02155.pdf) | -                                                                                                                               |
+| 2022 | EVA 2.0            | EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Trainingraining language mode                               | arxiv                                        | [link](https://arxiv.org/pdf/2203.09313.pdf)                                                                                    | [link](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master)           |
+| 2022 | AlphaCode          | Competition-Level Code Generation with AlphaCode                                                                                            | arxiv                                        | [link](https://arxiv.org/pdf/2203.07814.pdf)                                                                                    | -                                                                            |
+| 2022 | ST-MoE             | ST-MoE: Designing Stable and Transferable Sparse Expert Models                                                                              | arxiv                                        | [link](https://arxiv.org/pdf/2202.08906.pdf)                                                                                    | -                                                                            |
+| 2022 | LaMDA              | LaMDA: Language Models for Dialog Applications                                                                                              | arxiv                                        | [link](https://arxiv.org/pdf/2201.08239.pdf)                                                                                    | -                                                                            |
+| 2022 | ERNIE-ViLG         | ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation                                                    | arxiv                                        | [link](https://arxiv.org/pdf/2112.15283.pdf)                                                                                    | -                                                                            |
+| 2021 | GLaM               | GLaM: Efficient Scaling of Language Models with Mixture-of-Experts                                                                          | ICML 2022                                    | [link](https://arxiv.org/pdf/2112.06905.pdf)                                                                                    | -                                                                            |
+| 2021 | Gopher             | Scaling Language Models: Methods, Analysis & Insights from Training Gopher                                                                  | arxiv                                        | [link](https://arxiv.org/pdf/2112.11446.pdf)                                                                                    | -                                                                            |
+| 2021 | Yuan 1.0           | Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning                                                         | arxiv                                        | [link](https://arxiv.org/pdf/2110.04725.pdf)                                                                                    | -                                                                            |
+| 2021 | MT-NLG             | Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model                                     | arxiv                                        | [link](https://arxiv.org/pdf/2201.11990.pdf)                                                                                    | -                                                                            |
+| 2021 | Codex              | Evaluating Large Language Models Trained on Code                                                                                            | arxiv                                        | [link](https://arxiv.org/pdf/2107.03374.pdf)                                                                                    | -                                                                            |
+| 2021 | ERNIE 3.0          | ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation                                            | arxiv                                        | [link](https://arxiv.org/pdf/2107.02137.pdf)                                                                                    | -                                                                            |
+| 2021 | HyperClova         | What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers | EMNLP 2021                                   | [link](https://arxiv.org/pdf/2109.04650v1.pdf)                                                                                  | -                                                                            |
+| 2021 | ByT5               | ByT5: Towards a token-free future with pre-trained byte-to-byte models                                                                      | TACL 2022                                    | [link](https://arxiv.org/pdf/2105.13626.pdf)                                                                                    | [link](https://github.com/google-research/byt5)                              |
+| 2021 | PanGu-α            | PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation                                       | arxiv                                        | [link](https://arxiv.org/pdf/2104.12369.pdf)                                                                                    | -                                                                            |
+| 2021 | mT5                | mT5: A massively multilingual pre-trained text-to-text transformer                                                                          | arxiv                                        | [link](https://arxiv.org/pdf/2010.11934.pdf)                                                                                    | [link](https://github.com/google-research/multilingual-t5)                   |
+| 2021 | GLM                | GLM: General Language Model Pretraining with Autoregressive Blank Infilling                                                                 | ACL 2022                                     | [link](https://arxiv.org/pdf/2103.10360.pdf)                                                                                    | [link](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/GLM)       |
+| 2021 | Switch Transformer | Scaling to Trillion Parameter Models with Simple and Efficient Sparsity                                                                     | JMLR 2021                                    | [link](https://arxiv.org/pdf/2101.03961.pdf)                                                                                    | -                                                                            |
+| 2020 | CPM                | CPM: A Large-scale Generative Chinese Pre-trained Language Model                                                                            | arxiv                                        | [link](https://arxiv.org/pdf/2012.00413.pdf)                                                                                    | [link](https://github.com/TsinghuaAI/CPM)                                    |
+| 2020 | GPT-3              | Language Models are Few-Shot Learners                                                                                                       | arxiv                                        | [link](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)                                       | -                                                                            |
+| 2020 | Blender            | Recipes for building an open-domain chatbot                                                                                                 | arxiv                                        | [link](https://arxiv.org/pdf/2004.13637.pdf)                                                                                    | -                                                                            |
+| 2020 | Meena              | Towards a Human-like Open-Domain Chatbot                                                                                                    | arxiv                                        | [link](https://arxiv.org/pdf/2001.09977.pdf)                                                                                    | -                                                                            |
+| 2019 | DialoGPT           | DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation                                                        | ACL 2020                                     | [link](https://arxiv.org/pdf/1911.00536.pdf)                                                                                    | [link](https://github.com/microsoft/DialoGPT)                                |
+| 2019 | T5                 | Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer                                                           | JMLR 2019                                    | [link](https://arxiv.org/pdf/1910.10683.pdf)                                                                                    | [link](https://github.com/google-research/text-to-text-transfer-transformer) |
+| 2019 | Megatron-LM        | Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism                                                       | arxiv                                        | [link](https://arxiv.org/pdf/1909.08053.pdf)                                                                                    | [link](https://github.com/NVIDIA/Megatron-LM)                                |
+| 2019 | RoBERTa            | RoBERTa: A Robustly Optimized BERT Pretraining Approach                                                                                     | arxiv                                        | [link](https://arxiv.org/pdf/1907.11692.pdf)                                                                                    | [link](https://github.com/facebookresearch/fairseq)                          |
+| 2019 | XLNet              | XLNet:Generalized Autoregressive Pretraining for Language Understanding                                                                     | NeurIPS 2019                                 | [link](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html)                                   | [link](https://github.com/zihangdai/xlnet)                                   |
+| 2019 | GPT-2              | Language Models are Unsupervised Multitask Learners                                                                                         | arxiv                                        | [link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)                   | [link](https://github.com/NVIDIA/Megatron-LM)                                |
+| 2018 | GPT                | Improving Language Understanding by Generative Pre-Training                                                                                 | -                                            | [link](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) | [link](https://github.com/google-research/vmoe)                              |
+| 2018 | BERT               | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding                                                            | NAACL 2018                                   | [link](https://arxiv.org/pdf/1810.04805.pdf)                                                                                    | [link](https://github.com/google-research/bert)                              |
 
 #### Huge Models for CV [[Back to Top⇪](#Huge Models for CV)]
 
- Year | Model Name | Title | Venue | Paper | Code 
----|---|---|---|---|---
- 2023 | DINOv2 | DINOv2: Learning Robust Visual Features without Supervision | arxiv | [link](https://arxiv.org/pdf/2304.07193.pdf) | - 
- 2023 | SEEM | Segment Everything Everywhere All at Once | arxiv | [link](https://arxiv.org/pdf/2304.06718.pdf) | [link](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once) 
- 2023 | Visual ChatGPT | Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models | arxiv | [link](https://arxiv.org/pdf/2303.04671.pdf) | [link](https://github.com/microsoft/TaskMatrix) 
- 2023 | PICASSO | - | - | - | [official website](https://www.nvidia.com/zh-tw/gpu-cloud/picasso/) 
- 2023 | SAM | Segment Anything | - | [link](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/10000000_900554171201033_1602411987825904100_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=DsUiPPmfKCcAX9z0vCN&_nc_ht=scontent-lax3-2.xx&oh=00_AfCJOMTowYIhhAmJ9CBVsh-pg2LgSwqscB-g_KJAY_bWVQ&oe=646E5A27) | [official website](https://segment-anything.com/) 
- 2023 | 书生 | - | - | [official news](https://www.sensetime.com/cn/news-detail/51166318?categoryId=72) | - 
- 2022 | AllInOne | All in One: Exploring Unified Video-Language Pre-training | arxiv | [link](https://arxiv.org/pdf/2203.07303.pdf) | [link](https://github.com/showlab/all-in-one) 
- 2022 | CoCa | CoCa: Contrastive Captioners are Image-Text Foundation Models | arxiv | [link](https://arxiv.org/pdf/2205.01917.pdf) | - 
- 2012 | CoAtNet | CoAtNet: Marrying Convolution and Attention for All Data Sizes | arxiv | [link](https://arxiv.org/pdf/2106.04803.pdf) | - 
- 2021 | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | arxiv | [link](https://arxiv.org/pdf/2103.14030.pdf) | [link](https://github.com/microsoft/Swin-Transformer) 
- 2021 | V-MOE | Scaling Vision with Sparse Mixture of Experts | arxiv | [link](https://arxiv.org/pdf/2106.05974.pdf) | - 
- 2021 | ViT | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | ICLR2021 | [link](https://arxiv.org/pdf/2010.11929.pdf) | [link](https://github.com/google-research/vision_transformer) 
-
+| Year | Model Name       | Title                                                                      | Venue    | Paper                                                                                                                                                                                                                                                                  | Code                                                                            |
+| ---- | ---------------- | -------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 2023 | DINOv2           | DINOv2: Learning Robust Visual Features without Supervision                | arxiv    | [link](https://arxiv.org/pdf/2304.07193.pdf)                                                                                                                                                                                                                           | -                                                                               |
+| 2023 | SEEM             | Segment Everything Everywhere All at Once                                  | arxiv    | [link](https://arxiv.org/pdf/2304.06718.pdf)                                                                                                                                                                                                                           | [link](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once) |
+| 2023 | Visual ChatGPT   | Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models | arxiv    | [link](https://arxiv.org/pdf/2303.04671.pdf)                                                                                                                                                                                                                           | [link](https://github.com/microsoft/TaskMatrix)                                 |
+| 2023 | PICASSO          | -                                                                          | -        | -                                                                                                                                                                                                                                                                      | [official website](https://www.nvidia.com/zh-tw/gpu-cloud/picasso/)             |
+| 2023 | SAM              | Segment Anything                                                           | -        | [link](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/10000000_900554171201033_1602411987825904100_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=DsUiPPmfKCcAX9z0vCN&_nc_ht=scontent-lax3-2.xx&oh=00_AfCJOMTowYIhhAmJ9CBVsh-pg2LgSwqscB-g_KJAY_bWVQ&oe=646E5A27) | [official website](https://segment-anything.com/)                               |
+| 2023 | 书生             | -                                                                          | -        | [official news](https://www.sensetime.com/cn/news-detail/51166318?categoryId=72)                                                                                                                                                                                       | -                                                                               |
+| 2022 | AllInOne         | All in One: Exploring Unified Video-Language Pre-training                  | arxiv    | [link](https://arxiv.org/pdf/2203.07303.pdf)                                                                                                                                                                                                                           | [link](https://github.com/showlab/all-in-one)                                   |
+| 2022 | CoCa             | CoCa: Contrastive Captioners are Image-Text Foundation Models              | arxiv    | [link](https://arxiv.org/pdf/2205.01917.pdf)                                                                                                                                                                                                                           | -                                                                               |
+| 2012 | CoAtNet          | CoAtNet: Marrying Convolution and Attention for All Data Sizes             | arxiv    | [link](https://arxiv.org/pdf/2106.04803.pdf)                                                                                                                                                                                                                           | -                                                                               |
+| 2021 | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows    | arxiv    | [link](https://arxiv.org/pdf/2103.14030.pdf)                                                                                                                                                                                                                           | [link](https://github.com/microsoft/Swin-Transformer)                           |
+| 2021 | V-MOE            | Scaling Vision with Sparse Mixture of Experts                              | arxiv    | [link](https://arxiv.org/pdf/2106.05974.pdf)                                                                                                                                                                                                                           | -                                                                               |
+| 2021 | ViT              | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | ICLR2021 | [link](https://arxiv.org/pdf/2010.11929.pdf)                                                                                                                                                                                                                           | [link](https://github.com/google-research/vision_transformer)                   |
 
 #### Huge Models for Multimodal [[](#Huge Models for Multimodal)]
 
@@ -258,8 +258,6 @@ Fine-tuning is a technique used in natural language processing (NLP) to adapt pr
 
 #### Summary of LLM fine-tuning
 
-#### Fine-Tuning
-
 Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. The basic idea of fine-tuning is to take a pre-trained
 language model that has been trained on a large amount of text and continue training it on a smaller set of task-specific text.The concept of fine-tuning has been around for many years and
 has been utilized in various contexts. One of the earliest known applications of fine-tuning in NLP was in the domain of Neural Machine Translation (NMT), where researchers used pre-trained
@@ -348,9 +346,9 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 -   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
 -   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
 
-#### Papers
+##### Papers
 
-##### 2023 [[Back to Top⇪](#RLHF-Related-Papers)]
+**2023** [[Back to Top⇪](#RLHF-Related-Papers)]
 
 | Year | Title                                                                                     | Venue | Paper                                    | Code                                            |
 | ---- | ----------------------------------------------------------------------------------------- | ----- | ---------------------------------------- | ----------------------------------------------- |
@@ -367,7 +365,7 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 | 2023 | The Capacity for Moral Self-Correction in Large Language Models                           |       | [link](https://arxiv.org/abs/2302.07459) | -                                               |
 |      |                                                                                           |       |                                          |                                                 |
 
-##### 2022 [[Back to Top⇪](#RLHF-Related-Papers)]
+**2022** [[Back to Top⇪](#RLHF-Related-Papers)]
 
 | Year | Title                                                                                        | Venue | Paper                                    | Code                                                              |
 | ---- | -------------------------------------------------------------------------------------------- | ----- | ---------------------------------------- | ----------------------------------------------------------------- |
@@ -382,14 +380,13 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 | 2022 | Discovering Language Model Behaviors with Model-Written Evaluations                          | -     | [link](https://arxiv.org/abs/2212.09251) | [link](https://github.com/anthropics/evals)                       |
 |      |                                                                                              |       |                                          |                                                                   |
 
-##### 2021 [[Back to Top⇪](#RLHF-Related-Papers)]
+**2021** [[Back to Top⇪](#RLHF-Related-Papers)]
 
 | Year | Title                                                                              | Venue        | Paper                                    | Code |
 | ---- | ---------------------------------------------------------------------------------- | ------------ | ---------------------------------------- | ---- |
 | 2021 | Recursively Summarizing Books with Human Feedback                                  | -            | [link](https://arxiv.org/abs/2109.10862) | -    |
 | 2021 | Revisiting the Weaknesses of Reinforcement Learning for Neural Machine Translation | -            | [link](https://arxiv.org/abs/2106.08942) | -    |
 | 2020 | Learning to summarize from human feedback                                          | NeurIPS 2020 | [link](https://arxiv.org/abs/2009.01325) | -    |
-|      |                                                                                    |              |                                          |      |
 
 ### LLM Tutorial Resources and Evaluation Comparison
 
@@ -414,16 +411,14 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 
 ### LLM Related Papers: Prompt, Incontent Learning, and LLM PEFT e.t.
 
-# Incontext Learning Papers
+#### Incontext Learning Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
 -   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
 -   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
 
-### Papers
-
-##### 2023 [[Back to Top⇪](#Incontext-Learning-Papers)]
+**2023** [[Back to Top⇪](#Incontext-Learning-Papers)]
 
 | Year | Title                                                                                                                   | Venue     | Paper                                        | Code                                                                           |
 | ---- | ----------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -437,13 +432,8 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2023 | Transformers as Algorithms: Generalization and Stability in In-context Learning                                         | -         | [link](https://arxiv.org/pdf/2301.07067.pdf) | [link](https://github.com/yingcong-li/transformers-as-algorithms)              |
 | 2023 | Can In-context Learners Learn a Reasoning Concept from Demonstrations?                                                  | -         | [link](https://arxiv.org/pdf/2212.01692.pdf) | -                                                                              |
 | 2023 | The Flan Collection: Designing Data and Methods for Effective Instruction Tuning                                        | -         | [link](https://arxiv.org/pdf/2301.13688.pdf) | [link](https://github.com/google-research/FLAN/tree/main/flan/v2)              |
-|      |                                                                                                                         |           |                                              |                                                                                |
-|      |                                                                                                                         |           |                                              |                                                                                |
-|      |                                                                                                                         |           |                                              |                                                                                |
-|      |                                                                                                                         |           |                                              |                                                                                |
-|      |                                                                                                                         |           |                                              |                                                                                |
 
-##### 2022 [[Back to Top⇪](#Incontext-Learning-Papers)]
+**2022** [[Back to Top⇪](#Incontext-Learning-Papers)]
 
 | Year | Title                                                                                                                                                     | Venue          | Paper                                                          | Code                                                                              |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -491,16 +481,14 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2022 | In-context Learning Distillation: Transferring Few-shot Learning Ability of Pre-trained Language Models.                                                  | -              | [link](https://arxiv.org/pdf/2212.10670.pdf)                   | -                                                                                 |
 | 2022 | The Inductive Bias of In-Context Learning: Rethinking Pretraining Example Design                                                                          | ICLR 2022      | [link](https://arxiv.org/pdf/2110.04541.pdf)                   | -                                                                                 |
 
-### Prompt-based Papers
+#### Prompt-based Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
 -   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
 -   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
 
-#### Papers
-
-#### 2023 [[Back to Top⇪](#Prompt-based-Papers)]
+**2023** [[Back to Top⇪](#Prompt-based-Papers)]
 
 | Year | Title                                                                                                   | Venue     | Paper                                              | Code                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -517,7 +505,7 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2023 | Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing | -         | [link](https://dl.acm.org/doi/pdf/10.1145/3560815) | -                                                                                        |
 |      |                                                                                                         |           |                                                    |                                                                                          |
 
-#### 2022 [[Back to Top⇪](#Prompt-based-Papers)]
+**2022** [[Back to Top⇪](#Prompt-based-Papers)]
 
 | Year | Title                                                                                           | Venue     | Paper                                                                                                                                        | Code                                         |
 | ---- | ----------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
@@ -532,7 +520,7 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2022 | P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks | -         | [link](https://arxiv.org/abs/2110.07602)                                                                                                     | [link](https://github.com/THUDM/P-tuning-v2) |
 |      |                                                                                                 |           |                                                                                                                                              |                                              |
 
-#### 2021 [[Back to Top⇪](#Prompt-based-Papers)]
+**2021** [[Back to Top⇪](#Prompt-based-Papers)]
 
 | Year | Title                                                              | Venue      | Paper                                    | Code                                                     |
 | ---- | ------------------------------------------------------------------ | ---------- | ---------------------------------------- | -------------------------------------------------------- |
