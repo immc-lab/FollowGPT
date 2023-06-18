@@ -92,11 +92,6 @@ Generative Pretrained Transformer (GPT) models have demonstrated significant pro
 
 The use of pre trained large-scale models for fine-tuning downstream tasks is currently a popular deep learning paradigm. Especially with the outstanding performance of the recently pre trained language model ChatGPT, this technical paradigm has been widely recognized. We mainly answered the question of what big models are available, and from a macro perspective, introduced the readers to what big models are available and what scope they cover. We have collected relevant papers from 2021 to the present from three aspects of natural language processing, computer vision and multimodality. Large models started early in the field of natural language processing, and then gradually evolved into computer vision related fields, such as SAM, which can split everything. At present, integrating large models from multiple professional fields has become a new paradigm for training large models in multimodal fields, such as Huawei's Pangu model, which covers fields such as finance and meteorology.
 
-<img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
-
--   [NLP](#Huge Models for NLP) | [CV](#Huge Models for CV) | [Multimodal](#Huge Models for Multimodal)
--   [Back to HOME🏠](../README.md)
-
 #### 1.1.1 Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
 
 | Year | Model Name         | Title                                                                                                                                       | Venue                                        | Paper                                                                                                                           | Code                                                                         |
@@ -366,14 +361,7 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 
 #### 1.3.4 RLHF Related Papers
 
-<img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
-
--   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
--   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
-
-##### Papers
-
-**2023** [[Back to Top⇪](#RLHF-Related-Papers)]
+**2023**
 
 | Year | Title                                                                                     | Venue | Paper                                    | Code                                            |
 | ---- | ----------------------------------------------------------------------------------------- | ----- | ---------------------------------------- | ----------------------------------------------- |
@@ -405,7 +393,7 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 | 2022 | Discovering Language Model Behaviors with Model-Written Evaluations                          | -     | [link](https://arxiv.org/abs/2212.09251) | [link](https://github.com/anthropics/evals)                       |
 |      |                                                                                              |       |                                          |                                                                   |
 
-**2021** [[Back to Top⇪](#RLHF-Related-Papers)]
+**2021**
 
 | Year | Title                                                                              | Venue        | Paper                                    | Code |
 | ---- | ---------------------------------------------------------------------------------- | ------------ | ---------------------------------------- | ---- |
@@ -436,27 +424,21 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 
 #### 1.5.1 Incontext Learning Papers
 
-<img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
-
--   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
--   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
-
-**2023** [[Back to Top⇪](#Incontext-Learning-Papers)]
-
-| Year | Title                                                                                                                   | Venue     | Paper                                        | Code                                                                           |
+**2023**
+| Year | Title | Venue | Paper | Code |
 | ---- | ----------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
-| 2023 | Resources and Few-shot Learners for In-context Learning in Slavic Languages                                             | EACL 2023 | [link](https://arxiv.org/pdf/2304.01922.pdf) | [link](https://github.com/fewshot-goes-multilingual/slavic-incontext-learning) |
-| 2023 | Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback                            | Pre-print | [link](https://arxiv.org/pdf/2305.10142.pdf) | [link](https://github.com/FranxYao/GPT-Bargaining)                             |
-| 2023 | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models                                              | ICLR 2023 | [link](https://arxiv.org/pdf/2205.10625.pdf) | -                                                                              |
-| 2023 | Prompting GPT-3 To Be Reliable                                                                                          | ICLR 2023 | [link](https://arxiv.org/pdf/2210.09150.pdf) | [link](https://github.com/NoviScl/GPT3-Reliability)                            |
-| 2023 | Self-Adaptive In-Context Learning: An Information Compression Perspective for In-Context Example Selection and Ordering | ICLR 2023 | [link](https://arxiv.org/pdf/2212.10375.pdf) | [link](https://github.com/Shark-NLP/self-adaptive-ICL)                         |
-| 2023 | On the Relation between Sensitivity and Accuracy in In-Context Learning                                                 | -         | [link](https://arxiv.org/pdf/2209.07661.pdf) | [link](https://github.com/yandachen/ICLSensitivity)                            |
-| 2023 | Why Can GPT Learn In-Context? Language Models Implicitly Perform Gradient Descent as Meta-Optimizers                    | ACL 2023  | [link](https://arxiv.org/pdf/2212.10559.pdf) | [link](https://github.com/microsoft/LMOps)                                     |
-| 2023 | Transformers as Algorithms: Generalization and Stability in In-context Learning                                         | -         | [link](https://arxiv.org/pdf/2301.07067.pdf) | [link](https://github.com/yingcong-li/transformers-as-algorithms)              |
-| 2023 | Can In-context Learners Learn a Reasoning Concept from Demonstrations?                                                  | -         | [link](https://arxiv.org/pdf/2212.01692.pdf) | -                                                                              |
-| 2023 | The Flan Collection: Designing Data and Methods for Effective Instruction Tuning                                        | -         | [link](https://arxiv.org/pdf/2301.13688.pdf) | [link](https://github.com/google-research/FLAN/tree/main/flan/v2)              |
+| 2023 | Resources and Few-shot Learners for In-context Learning in Slavic Languages | EACL 2023 | [link](https://arxiv.org/pdf/2304.01922.pdf) | [link](https://github.com/fewshot-goes-multilingual/slavic-incontext-learning) |
+| 2023 | Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback | Pre-print | [link](https://arxiv.org/pdf/2305.10142.pdf) | [link](https://github.com/FranxYao/GPT-Bargaining) |
+| 2023 | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models | ICLR 2023 | [link](https://arxiv.org/pdf/2205.10625.pdf) | - |
+| 2023 | Prompting GPT-3 To Be Reliable | ICLR 2023 | [link](https://arxiv.org/pdf/2210.09150.pdf) | [link](https://github.com/NoviScl/GPT3-Reliability) |
+| 2023 | Self-Adaptive In-Context Learning: An Information Compression Perspective for In-Context Example Selection and Ordering | ICLR 2023 | [link](https://arxiv.org/pdf/2212.10375.pdf) | [link](https://github.com/Shark-NLP/self-adaptive-ICL) |
+| 2023 | On the Relation between Sensitivity and Accuracy in In-Context Learning | - | [link](https://arxiv.org/pdf/2209.07661.pdf) | [link](https://github.com/yandachen/ICLSensitivity) |
+| 2023 | Why Can GPT Learn In-Context? Language Models Implicitly Perform Gradient Descent as Meta-Optimizers | ACL 2023 | [link](https://arxiv.org/pdf/2212.10559.pdf) | [link](https://github.com/microsoft/LMOps) |
+| 2023 | Transformers as Algorithms: Generalization and Stability in In-context Learning | - | [link](https://arxiv.org/pdf/2301.07067.pdf) | [link](https://github.com/yingcong-li/transformers-as-algorithms) |
+| 2023 | Can In-context Learners Learn a Reasoning Concept from Demonstrations? | - | [link](https://arxiv.org/pdf/2212.01692.pdf) | - |
+| 2023 | The Flan Collection: Designing Data and Methods for Effective Instruction Tuning | - | [link](https://arxiv.org/pdf/2301.13688.pdf) | [link](https://github.com/google-research/FLAN/tree/main/flan/v2) |
 
-**2022** [[Back to Top⇪](#Incontext-Learning-Papers)]
+**2022**
 
 | Year | Title                                                                                                                                                     | Venue          | Paper                                                          | Code                                                                              |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -506,12 +488,7 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 
 #### 1.5.2 Prompt-based Papers
 
-<img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
-
--   [2023](#2023-back-to-top⇪) | [2022](#2022-back-to-top⇪) | [2021](#2021-back-to-top⇪)
--   [Back to HOME🏠](https://github.com/immc-lab/FollowGPT)
-
-**2023** [[Back to Top⇪](#Prompt-based-Papers)]
+**2023**
 
 | Year | Title                                                                                                   | Venue     | Paper                                              | Code                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -526,24 +503,21 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2023 | LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention                        | -         | [link](https://arxiv.org/abs/2303.16199)           | [link](https://github.com/ZrrSkywalker/LLaMA-Adapter)                                    |
 | 2023 | Zero-shot Generative Model Adaptation via Image-specific Prompt Learning                                | -         | [link](https://arxiv.org/abs/2304.03119)           | [link](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation) |
 | 2023 | Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing | -         | [link](https://dl.acm.org/doi/pdf/10.1145/3560815) | -                                                                                        |
-|      |                                                                                                         |           |                                                    |                                                                                          |
 
-**2022** [[Back to Top⇪](#Prompt-based-Papers)]
-
-| Year | Title                                                                                           | Venue     | Paper                                                                                                                                        | Code                                         |
+**2022**
+| Year | Title | Venue | Paper | Code |
 | ---- | ----------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 2022 | Domain Adaptation via Prompt Learning                                                           | -         | [link](https://arxiv.org/abs/2202.06687)                                                                                                     | -                                            |
-| 2022 | Conditional Prompt Learning for Vision-Language Models                                          | CVPR 2022 | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Conditional_Prompt_Learning_for_Vision-Language_Models_CVPR_2022_paper.html) | [link](https://github.com/KaiyangZhou/CoOp)  |
-| 2022 | Visual Prompt Tuning                                                                            | ECCV 2022 | [link](https://arxiv.org/abs/2203.12119)                                                                                                     | [link](https://github.com/kmnp/vpt)          |
-| 2022 | Pro-tuning: Unified Prompt Tuning for Vision Tasks                                              | -         | [link](https://arxiv.org/abs/2207.14381)                                                                                                     | -                                            |
-| 2022 | Unified Vision and Language Prompt Learning                                                     | -         | [link](https://arxiv.org/abs/2210.07225)                                                                                                     | [link](https://github.com/yuhangzang/UPT)    |
-| 2022 | CPL: Counterfactual Prompt Learning for Vision and Language Models                              | -         | [link](https://arxiv.org/abs/2210.10362)                                                                                                     | [link](https://github.com/eric-ai-lab/CPL)   |
-| 2022 | Texts as Images in Prompt Tuning for Multi-Label Image Recognition                              | -         | [link](https://arxiv.org/abs/2211.12739)                                                                                                     | [link](https://github.com/guozix/TaI-DPT)    |
-| 2022 | VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval                            | -         | [link](https://arxiv.org/abs/2211.12764)                                                                                                     | [link](https://github.com/bighuang624/VoP)   |
-| 2022 | P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks | -         | [link](https://arxiv.org/abs/2110.07602)                                                                                                     | [link](https://github.com/THUDM/P-tuning-v2) |
-|      |                                                                                                 |           |                                                                                                                                              |                                              |
+| 2022 | Domain Adaptation via Prompt Learning | - | [link](https://arxiv.org/abs/2202.06687) | - |
+| 2022 | Conditional Prompt Learning for Vision-Language Models | CVPR 2022 | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Conditional_Prompt_Learning_for_Vision-Language_Models_CVPR_2022_paper.html) | [link](https://github.com/KaiyangZhou/CoOp) |
+| 2022 | Visual Prompt Tuning | ECCV 2022 | [link](https://arxiv.org/abs/2203.12119) | [link](https://github.com/kmnp/vpt) |
+| 2022 | Pro-tuning: Unified Prompt Tuning for Vision Tasks | - | [link](https://arxiv.org/abs/2207.14381) | - |
+| 2022 | Unified Vision and Language Prompt Learning | - | [link](https://arxiv.org/abs/2210.07225) | [link](https://github.com/yuhangzang/UPT) |
+| 2022 | CPL: Counterfactual Prompt Learning for Vision and Language Models | - | [link](https://arxiv.org/abs/2210.10362) | [link](https://github.com/eric-ai-lab/CPL) |
+| 2022 | Texts as Images in Prompt Tuning for Multi-Label Image Recognition | - | [link](https://arxiv.org/abs/2211.12739) | [link](https://github.com/guozix/TaI-DPT) |
+| 2022 | VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval | - | [link](https://arxiv.org/abs/2211.12764) | [link](https://github.com/bighuang624/VoP) |
+| 2022 | P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks | - | [link](https://arxiv.org/abs/2110.07602) | [link](https://github.com/THUDM/P-tuning-v2) |
 
-**2021** [[Back to Top⇪](#Prompt-based-Papers)]
+**2021**
 
 | Year | Title                                                              | Venue      | Paper                                    | Code                                                     |
 | ---- | ------------------------------------------------------------------ | ---------- | ---------------------------------------- | -------------------------------------------------------- |
@@ -552,7 +526,6 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2021 | P-Tuning: GPT Understands, Too                                     | -          | [link](https://arxiv.org/abs/2103.10385) | [link](https://github.com/THUDM/P-tuning)                |
 | 2021 | Prefix-Tuning Optimizing Continuous Prompts for Generation         | ACL 2021   | [link](https://arxiv.org/abs/2101.00190) | [link](https://github.com/XiangLi1999/PrefixTuning)      |
 | 2021 | The Power of Scale for Parameter-Efficient Prompt Tuning           | EMNLP 2021 | [link](https://arxiv.org/abs/2104.08691) | [link](https://github.com/google-research/prompt-tuning) |
-|      |                                                                    |            |                                          |                                                          |
 
 ## 2.Tutorials
 
