@@ -53,11 +53,42 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 
 ---
 
-## Summary of GPT
+## Table of Content
+
+-   1.Summary of GPT
+    -   1.1 Huge Model Papers
+        -   1.1.1 Huge Models for NLP
+        -   1.1.2 Huge Models for CV
+        -   1.1.3 Huge Models for Multimodal
+    -   1.2 How to Understand the Foundation Model & How to Experience the Foundation Model
+        -   1.2.1 A tutorial presented in video format
+        -   1.2.2 Capabilities and Future of Large Language Models
+        -   1.2.3 ChatGPT Prompt Engineering for Developers
+        -   1.2.4 ChatGPT
+        -   1.2.5 How to understand large-scale models
+        -   1.2.6 Introduction to large-scale models and their terminology
+        -   1.2.7 Commonly Used Corpora
+        -   1.2.8 Publicly Available Models
+        -   1.2.9 Library Resource
+        -   1.2.10 Deep Learning Frameworks
+    -   1.3 LLM Fine Tuning Principle Introduction
+        -   1.3.1 Summary of LLM fine-tuning
+        -   1.3.2 Parameter-Efficient Fine-Tuning (PEFT)
+        -   1.3.3 Prompt-Tuning
+            -   1.3.3.1 Prefix tuning
+            -   1.3.3.2 P-Tuning
+        -   1.3.4 RLHF Related Papers
+    -   1.4 LLM Tutorial Resources and Evaluation Comparison
+    -   1.5 LLM Related Papers: Prompt, Incontent Learning, and LLM PEFT e.t.
+        -   1.5.1 Incontext Learning Papers
+        -   1.5.2 Prompt-based Papers
+-   2.Tutorials
+
+## 1.Summary of GPT
 
 Generative Pretrained Transformer (GPT) models have demonstrated significant proficiency in understanding and generating language, one of their standout characteristics is their versatility across domains. Regardless of the text data in question, GPT models can generate coherent, contextually accurate, and often insightful responses without being explicitly trained on the task. This adaptability is quite remarkable and sets GPT models apart in the landscape of language models.Another point of praise for GPT is its ability to engage in semantic search. Instead of merely matching keywords, as with traditional search algorithms, GPT can comprehend the meaning behind the words. This enables it to provide more relevant, precise, and contextually fitting results, highlighting its utility in data mining and information retrieval applications.
 
-### Huge Model Papers
+### 1.1 Huge Model Papers
 
 The use of pre trained large-scale models for fine-tuning downstream tasks is currently a popular deep learning paradigm. Especially with the outstanding performance of the recently pre trained language model ChatGPT, this technical paradigm has been widely recognized. We mainly answered the question of what big models are available, and from a macro perspective, introduced the readers to what big models are available and what scope they cover. We have collected relevant papers from 2021 to the present from three aspects of natural language processing, computer vision and multimodality. Large models started early in the field of natural language processing, and then gradually evolved into computer vision related fields, such as SAM, which can split everything. At present, integrating large models from multiple professional fields has become a new paradigm for training large models in multimodal fields, such as Huawei's Pangu model, which covers fields such as finance and meteorology.
 
@@ -66,7 +97,7 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 -   [NLP](#Huge Models for NLP) | [CV](#Huge Models for CV) | [Multimodal](#Huge Models for Multimodal)
 -   [Back to HOME🏠](../README.md)
 
-#### Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
+#### 1.1.1 Huge Models for NLP [[Back to Top⇪](#Huge Models for NLP)]
 
 | Year | Model Name         | Title                                                                                                                                       | Venue                                        | Paper                                                                                                                           | Code                                                                         |
 | ---- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -112,7 +143,7 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 | 2018 | GPT                | Improving Language Understanding by Generative Pre-Training                                                                                 | -                                            | [link](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) | [link](https://github.com/google-research/vmoe)                              |
 | 2018 | BERT               | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding                                                            | NAACL 2018                                   | [link](https://arxiv.org/pdf/1810.04805.pdf)                                                                                    | [link](https://github.com/google-research/bert)                              |
 
-#### Huge Models for CV [[Back to Top⇪](#Huge Models for CV)]
+#### 1.1.2 Huge Models for CV [[Back to Top⇪](#Huge Models for CV)]
 
 | Year | Model Name       | Title                                                                      | Venue    | Paper                                                                                                                                                                                                                                                                  | Code                                                                            |
 | ---- | ---------------- | -------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -129,7 +160,7 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 | 2021 | V-MOE            | Scaling Vision with Sparse Mixture of Experts                              | arxiv    | [link](https://arxiv.org/pdf/2106.05974.pdf)                                                                                                                                                                                                                           | -                                                                               |
 | 2021 | ViT              | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | ICLR2021 | [link](https://arxiv.org/pdf/2010.11929.pdf)                                                                                                                                                                                                                           | [link](https://github.com/google-research/vision_transformer)                   |
 
-#### Huge Models for Multimodal [[](#Huge Models for Multimodal)]
+#### 1.1.3 Huge Models for Multimodal [[](#Huge Models for Multimodal)]
 
 | Year      | Model Name   | Title                                                                                                                                        | Venue                                     | Paper                                                                                         | Code |
 | --------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------- | ---- |
@@ -143,12 +174,12 @@ The use of pre trained large-scale models for fine-tuning downstream tasks is cu
 | 2021      | 盘古         | PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation                                        | arxiv                                     | [link](https://arxiv.org/pdf/2104.12369.pdf)                                                  | -    |
 | 2021-2022 | Chinese CLIP | Learning Transferable Visual Models From Natural Language Supervision <br/> Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese | arxiv                                     | [link](https://arxiv.org/pdf/2103.00020.pdf)<br/>[link](https://arxiv.org/pdf/2211.01335.pdf) | -    |
 
-### How to Understand the Foundation Model & How to Experience the Foundation Model
+### 1.2 How to Understand the Foundation Model & How to Experience the Foundation Model
 
 In recent times, significant advancements have been made in the research of LLMs by both academia and industry. One notable achievement is the introduction of ChatGPT, a powerful AI chatbot developed based on LLMs, which has garnered considerable attention from society. The technical evolution of LLMs is having a profound impact on the entire AI community, revolutionizing the way we develop and utilize AI algorithms.
 For the convenience of those interested in the LLMs, we have found some papers, blogs, etc. in Part IV to answer the question of how to understand the foundation model, and some open source resources on the LLMs for the base model including but not limited to: **Publicly Available Model Checkpoints or APIs**, **Commonly Used Corpora**, **Library Resource**, etc. for people who can experience and replicate the foundation model.
 
-#### A tutorial presented in video format
+#### 1.2.1 A tutorial presented in video format
 
 bilibili：https://www.bilibili.com/video/BV1UG411p7zv/?spm_id_from=333.337.search-card.all.click&vd_source=bfa4daa4cd37650d377d43f7aa846a79
 
@@ -156,22 +187,22 @@ bilibili：https://www.bilibili.com/video/BV1mM4y147qw/
 
 bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4b1308dc078ccd41d80
 
-#### Capabilities and Future of Large Language Models
+#### 1.2.2 Capabilities and Future of Large Language Models
 
 大语言模型介绍：https://www.51cto.com/article/753233.html
 
-#### ChatGPT Prompt Engineering for Developers
+#### 1.2.3 ChatGPT Prompt Engineering for Developers
 
 吴恩达新课 chatGPT Prompt Engineering for Developers 笔记：https://zhuanlan.zhihu.com/p/625917566
 
-#### ChatGPT
+#### 1.2.4 ChatGPT
 
 1. B 站：https://www.bilibili.com/video/BV1cg4y1j7F9/?spm_id_from=333.999.0.0&vd_source=4feabcdf8e3d49724afd39c33e65e9a4
    (介绍 chatGPT 模型的基本过程、原理、处理流程和参数组成，持续更新)
 
 2. GPT-3.5 免费用，GPT-4 要充一点：https://ai.usesless.com/scene/home
 
-#### How to understand large-scale models
+#### 1.2.5 How to understand large-scale models
 
 1、[知乎：什么是大模型？超大模型和 Foundation Model](https://www.zhihu.com/question/498275802/answer/2221187242?utm_campaign=shareopn&utm_content=group3_Answer&utm_medium=social&utm_oi=1317776601833263104&utm_psn=1642132929626337280&utm_source=wechat_session) （讲的不算很系统，但是对 gpt 的特性的还可以）
 
@@ -185,12 +216,12 @@ bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4
 
 6、[知乎：如何理解斯坦福大学的论文“大模型涌现能力是海市蜃楼，那是度量选择的结果”的观点？ ](https://www.zhihu.com/question/599186065/answer/3027731268)
 
-#### Introduction to large-scale models and their terminology
+#### 1.2.6 Introduction to large-scale models and their terminology
 
 了解大模型：https://www.zhihu.com/question/498275802/answer/2221187242
 术语学习：https://zhuanlan.zhihu.com/p/615074572
 
-#### Commonly Used Corpora
+#### 1.2.7 Commonly Used Corpora
 
 1. BookCorpus: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books". Yukun Zhu et al. ICCV 2015. [[Paper](http://arxiv.org/abs/1506.06724v1)] [[Source](https://huggingface.co/datasets/bookcorpus)]
 2. Guntenburg: [[Source](https://www.gutenberg.org/)]
@@ -206,7 +237,7 @@ bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4
 12. The Pile: "The Pile: An 800GB Dataset of Diverse Text for Language Modeling". Leo Gao et al. arxiv 2021. [[Paper](http://arxiv.org/abs/2101.00027v1)] [[Source](https://pile.eleuther.ai/)]
 13. ROOTS: "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset". Laurençon et al. NeurIPS 2022 Datasets and Benchmarks Track. [[paper](https://arxiv.org/abs/2303.03915)]
 
-#### Publicly Available Models
+#### 1.2.8 Publicly Available Models
 
 1. T5: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". Colin Raffel et al. JMLR 2019. [[Paper](https://arxiv.org/abs/1910.10683)] [[Checkpoint](https://huggingface.co/t5-11b)]
 2. mT5: "mT5: A massively multilingual pre-trained text-to-text transformer". Linting Xue et al. NAACL 2021. [[Paper](https://arxiv.org/abs/2010.11934)] [[Checkpoint](https://huggingface.co/google/mt5-xxl/tree/main)]
@@ -229,7 +260,7 @@ bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4
 19. Pythia: "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling". Stella Biderman et al. . arXiv 2023. [[Paper](https://arxiv.org/abs/2304.01373)] [[Checkpoint](https://github.com/EleutherAI/pythia)]
 20. LLaMA: "LLaMA: Open and Efficient Foundation Language Models". Hugo Touvron et al. arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13971v1)] [[Checkpoint](https://github.com/facebookresearch/llama)]
 
-#### Library Resource
+#### 1.2.9 Library Resource
 
 1. Transformers: "Transformers: State-of-the-Art Natural Language Processing". Thomas Wolf et al. EMNLP 2020. [[Paper](https://arxiv.org/abs/1910.03771)] [[Source](https://huggingface.co/)]
 2. DeepSpeed: "Deepspeed: System optimizations enable training deep learning models with over 100 billion parameters". Rasley et al. KDD 2020. [[Paper](https://dl.acm.org/doi/10.1145/3394486.3406703)] [[Source](https://github.com/microsoft/DeepSpeed)]
@@ -239,7 +270,7 @@ bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4
 6. BMTrain: [[Source](https://github.com/OpenBMB/BMTrain)]
 7. FastMoE: "FastMoE: A Fast Mixture-of-Expert Training System". Jiaao He et al. arXiv 2021. [[Paper](https://arxiv.org/abs/2103.13262)]] [[Source](https://github.com/laekov/fastmoe)]
 
-#### Deep Learning Frameworks
+#### 1.2.10 Deep Learning Frameworks
 
 1. Pytorch: "PyTorch: An Imperative Style, High-Performance Deep Learning Library". Adam Paszke el al. NeurIPS 2019. [[Paper](https://arxiv.org/abs/1912.01703)] [[Source](https://pytorch.org/)]
 2. TensorFlow: "TensorFlow: A system for large-scale machine learning". Martín Abadi et al. OSDI 2016. [[Paper](https://arxiv.org/abs/1605.08695)] [[Source](https://www.tensorflow.org/)]
@@ -248,11 +279,11 @@ bilibili：https://www.bilibili.com/video/BV16N411K7aT/?vd_source=64c7856b444da4
 5. MindSpore: "Huawei MindSpore AI Development Framework" . Huawei Technologies Co., Ltd. Artificial Intelligence Technology 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-981-19-2879-6_5)] [[Source](https://github.com/mindspore-ai/mindspore)]
 6. OneFlow: "OneFlow: Redesign the Distributed Deep Learning Framework from Scratch" . Jinhui Yuan et al. arXiv 2021. [[Paper](https://arxiv.org/abs/2110.15032)] [[Source](https://github.com/Oneflow-Inc/oneflow)]
 
-### LLM Fine Tuning Principle Introduction
+### 1.3 LLM Fine Tuning Principle Introduction
 
 Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. In this part, we make a brief introduction to the fine tuning technology, and systematically introduce the fine tuning technology commonly used in LLM. At the same time, we made a summary of RLHF related technologies and collected relevant papers from 2021 to 2023.
 
-#### Summary of LLM fine-tuning
+#### 1.3.1 Summary of LLM fine-tuning
 
 Fine-tuning is a technique used in natural language processing (NLP) to adapt pre-trained language models to specific tasks or domains. The basic idea of fine-tuning is to take a pre-trained
 language model that has been trained on a large amount of text and continue training it on a smaller set of task-specific text.The concept of fine-tuning has been around for many years and
@@ -264,7 +295,7 @@ extensive fine-tuning may be required.One of the most well-known examples of fin
 undergoes pre-training on a large corpus of text and is then fine-tuned on various tasks, such as language modeling, question answering, and summarization. The fine-tuned models have achieved
 state-of-the-art performance on these tasks.
 
-#### Parameter-Efficient Fine-Tuning (PEFT)
+#### 1.3.2 Parameter-Efficient Fine-Tuning (PEFT)
 
 Parameter-Efficient Fine-Tuning (PEFT) is a set of methods in natural language processing (NLP) aimed at achieving effective fine-tuning of pre-trained language models while minimizing the
 required parameters and computational resources. PEFT focuses on reducing the number of parameters and computational resources compared to traditional fine-tuning methods. It enables efficient
@@ -307,7 +338,7 @@ is achieved. This approach can result in smaller models with better performance 
 | AdapterP | MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer | [Link](https://arxiv.org/pdf/2005.00052.pdf) | [Link](https://adapterhub.ml/)                                   |
 | Parallel | TOWARDS A UNIFIED VIEW OF PARAMETER-EFFICIENT TRANSFER LEARNING         | [Link](https://arxiv.org/pdf/2110.04366.pdf) | [Link](https://github.com/jxhe/unify-parameter-efficient-tuning) |
 
-#### Prompt-Tuning
+#### 1.3.3 Prompt-Tuning
 
 Prompt-tuning is a more recent approach to fine-tuning pre-trained language models that focuses on adjusting the input prompts rather than modifying the model parameters. This means that the pre-trained model
 remains unchanged, and only the input prompts are modified to adapt to downstream tasks. By designing and optimizing a set of prompts, the pre-trained model can be made to perform specific tasks effectively.
@@ -315,18 +346,16 @@ The main difference between prompt-tuning and traditional fine-tuning lies in th
 the model's input. As a result, prompt-tuning incurs lower computational costs, requires fewer resources, and takes less training time compared to fine-tuning. Additionally, prompt-tuning is more flexible than
 fine-tuning because it allows for the creation of task-specific prompts that can adapt to a wide range of tasks.
 
-##### 1.Prefix tuning
+##### 1.3.3.1 Prefix tuning
 
 Proposed by Li and Liang in the paper "Prefix-Tuning: Optimizing Continuous Prompts for Generation" (2021), prefix-tuning involves learning continuous prompts specific to a task and adding them before the input
 during the inference process. By optimizing this continuous prompt, the model can adapt to specific tasks without modifying the underlying model parameters, resulting in computational resource savings and achieving
 efficient fine-tuning.
 
-##### 2.P-Tuning
+##### 1.3.3.2 P-Tuning
 
 Proposed by Liu et al. in the paper "P-Tuning: GPT Understands, Learns, and Generates Any Language" (2021), P-Tuning involves training learnable parameters called "prompt tokens" that are concatenated with the input
 sequence. These prompt tokens are task-specific and optimized during the fine-tuning process, enabling the model to perform well on new tasks while keeping the original model parameters unchanged.
-
-#### 3.Paper of prompt-tuning
 
 | Adapter       | Title                                                                                          | Paper                                               | Code                                                |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
@@ -335,7 +364,7 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 | P-Tuning v2   | P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Task | [Link](https://arxiv.org/pdf/2110.07602.pdf)        | [Link](https://github.com/THUDM/P-tuning-v2)        |
 | Prompt Tuning | The Power of Scale for Parameter-Efficient Prompt Tuning                                       | [Link](https://arxiv.org/pdf/2104.08691.pdf)        | -                                                   |
 
-#### RLHF Related Papers
+#### 1.3.4 RLHF Related Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
@@ -384,11 +413,9 @@ sequence. These prompt tokens are task-specific and optimized during the fine-tu
 | 2021 | Revisiting the Weaknesses of Reinforcement Learning for Neural Machine Translation | -            | [link](https://arxiv.org/abs/2106.08942) | -    |
 | 2020 | Learning to summarize from human feedback                                          | NeurIPS 2020 | [link](https://arxiv.org/abs/2009.01325) | -    |
 
-### LLM Tutorial Resources and Evaluation Comparison
+### 1.4 LLM Tutorial Resources and Evaluation Comparison
 
 In this section, We've collected existing LLM tutorial resources, as well as large model evaluation comparisons.
-
-#### Tutorials
 
 -   [The Ultimate Chat GPT Course](https://www.notion.so/69ed24a317a942d288e740419b1ad6f6) - 这个指导课程有 1000 多个资源，帮助你学习如何使用 ChatGPT 来提高你的生活。(免费！)
 -   [Advanced ChatGPT: Full Guide:](https://www.notion.so/ac6aa68840bc427c83f4611dd2642f83) - 他的指南包括初级和高级 ChatGPT 教程，以及一些实用的技巧和例子。(免费！)
@@ -405,9 +432,9 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 -   [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.788&vd_source=71b548de6de953e10b96b6547ada83f2)
 -   [chatgpt 基本工作原理简单清晰介绍](https://www.youtube.com/watch?v=e0aKI2GGZNg&t=24s)
 
-### LLM Related Papers: Prompt, Incontent Learning, and LLM PEFT e.t.
+### 1.5 LLM Related Papers: Prompt, Incontent Learning, and LLM PEFT e.t.
 
-#### Incontext Learning Papers
+#### 1.5.1 Incontext Learning Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
@@ -477,7 +504,7 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2022 | In-context Learning Distillation: Transferring Few-shot Learning Ability of Pre-trained Language Models.                                                  | -              | [link](https://arxiv.org/pdf/2212.10670.pdf)                   | -                                                                                 |
 | 2022 | The Inductive Bias of In-Context Learning: Rethinking Pretraining Example Design                                                                          | ICLR 2022      | [link](https://arxiv.org/pdf/2110.04541.pdf)                   | -                                                                                 |
 
-#### Prompt-based Papers
+#### 1.5.2 Prompt-based Papers
 
 <img src="https://img.shields.io/badge/%F0%9F%A5%B3-Welcome-brightgreen">
 
@@ -527,7 +554,7 @@ In this section, We've collected existing LLM tutorial resources, as well as lar
 | 2021 | The Power of Scale for Parameter-Efficient Prompt Tuning           | EMNLP 2021 | [link](https://arxiv.org/abs/2104.08691) | [link](https://github.com/google-research/prompt-tuning) |
 |      |                                                                    |            |                                          |                                                          |
 
-## Tutorials
+## 2.Tutorials
 
 ## Contributions
 
