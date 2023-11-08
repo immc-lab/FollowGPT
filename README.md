@@ -85,6 +85,22 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
         -   1.5.2 Prompt-based Papers
 -   2.Tutorials
 
+## 0.Openai News
+
+### 2023.11.06 
+
+*   发布了 GPT-4 Turbo
+    *   **提供了更长的文本处理能力：**Token 数量从 32K 提升到了 128 K。
+    *   **更多的控制功能**：增加了 JSON mode，让模型响应有效的 JSON。可以一次性调用多个函数。可以通过固定种子参数使模型返回一致的结果。将推出在 API 查看日志功能。
+    *   **最新的世界知识**：现在拥有截止 2023 年 4 月之前的知识。
+    *   **新的模态接口**：GPT4、DALLE 和 TTS 的整合。
+    *   **自定义模型**：可以微调 16K 的模型。
+    *   **更高的速率限制**：每分钟的 Token 数量翻倍。可以设置限速。引入的版权保护。
+    *   **价格**：GPT4 Turbo 便宜比 GPT4 三倍。输出的 Token 下降一半。旧模型价格下调。
+*   发布了 GPTs
+    *   **GPT Builder**：用于创建 GPTs。可以选择具有的能力，网络搜索、图像生成、代码执行。同时可以上传知识
+*   将推出 Assistants API
+
 ## 1.Summary of GPT
 
 Generative Pretrained Transformer (GPT) models have demonstrated significant proficiency in understanding and generating language, one of their standout characteristics is their versatility across domains. Regardless of the text data in question, GPT models can generate coherent, contextually accurate, and often insightful responses without being explicitly trained on the task. This adaptability is quite remarkable and sets GPT models apart in the landscape of language models.Another point of praise for GPT is its ability to engage in semantic search. Instead of merely matching keywords, as with traditional search algorithms, GPT can comprehend the meaning behind the words. This enables it to provide more relevant, precise, and contextually fitting results, highlighting its utility in data mining and information retrieval applications.
