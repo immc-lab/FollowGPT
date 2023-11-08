@@ -90,7 +90,7 @@ If you find this repository helpful, please give us a ⭐ or share it 🥰.
 ### 2023.11.06 
 
 *   发布了 GPT-4 Turbo
-    *   **提供了更长的文本处理能力：**Token 数量从 32K 提升到了 128 K。
+    *   **提供了更长的文本处理能力**：Token 数量从 32K 提升到了 128 K。
     *   **更多的控制功能**：增加了 JSON mode，让模型响应有效的 JSON。可以一次性调用多个函数。可以通过固定种子参数使模型返回一致的结果。将推出在 API 查看日志功能。
     *   **最新的世界知识**：现在拥有截止 2023 年 4 月之前的知识。
     *   **新的模态接口**：GPT4、DALLE 和 TTS 的整合。
